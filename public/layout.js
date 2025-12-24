@@ -1,9 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Page has finished loading. Now, do things.
-    loadLayoutByPetraPixel();
-
-    // Add any custom JavaScript code here...
-});
+console.log("Hello World");
+// your code here...
 
 function loadLayoutByPetraPixel() {
     const mainEl = document.querySelector("main");
