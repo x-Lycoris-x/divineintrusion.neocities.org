@@ -93,7 +93,7 @@ function headerHTML() {
        <div id="local-time" class="sidebar-section" style="height:200px;padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
        <h4><u>Changelog</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature styalized curse mark" style="width:15%;"></h4> 
        <div class="scrollbar" style="margin:1%;height:70%;overflow:scroll;">
-	    
+	    <p><strong>12/24/25</strong>: So I still don't quite know how to change how the actual changelog displays, but everything should update through git/github now!</p>
 	    <p><strong>12/7/25</strong>: Updated the official "to-do" list on the index, as well as cleaned up the index to be consistent across devices. Also updated the disclaimers on any pages with potentially NSFW content to make it harder to access by those who may not be of age. It's not a perfect system, but provides at minimum 2-3 barriers of entry to said content.</p>
 	    <p><strong>12/3/25</strong>: Finished addind the actual count to the <a href="/timewarp">system</a> pages, it's going to be a longterm project to actually design the buttons for everyone, unless I can think of a nicer way to do that. Right now I'm valuing the aesthetics of it.
 	    <p><strong>12/2/25</strong>: Finally got around to fixing the sidebar issues (hopefully) and added a few new things!</p>
