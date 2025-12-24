@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- CACHEBUSTING. https://petrapixel.neocities.org/coding/cachebusting -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // Path to your CSS file (like usual), or empty ("") if you don't have one:
+            const CSS_FILE_PATH = "style.css";
+
+            // Path to your JS file (like usual), or empty ("") if you don't have one:
+            const JS_FILE_PATH = "script.js";
+
+            function loadScript(src) {
+                const script = document.createElement("script");
+                script.src = src + "?nocache=" + new Date().getTime();
+                script.async = true;
+                document.head.appendChild(script);
+            }
+            function loadCSS(href) {
+                const link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = href + "?nocache=" + new Date().getTime();
+                document.head.appendChild(link);
+            }
+            if (JS_FILE_PATH) loadScript(JS_FILE_PATH);
+            if (CSS_FILE_PATH) loadCSS(CSS_FILE_PATH);
+        });
+    </script>
+
+    <!-- Change your site title: (It is shown in the tab) -->
+    <title>My Breadcrumb Trail</title>
+
+    <!-- Change your site description: (It is shown in Google results) -->
+    <meta content="Jace Shepherd's personal website" name="description" />
+
+    <!-- Setting character encoding and viewport size. Do not remove. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FavIcon (small image in tab), change to any image you want: -->
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="./style.css" rel="stylesheet" />
+
+    <!-- JavaScript: -->
+    <!-- You will have to change this to "../layout.js" if this HTML file is in a subfolder, to "../../layout.js" if this HTML file is in 2 subfolders, etc. -->
+    <script src="./layout.js"></script>
+
+    <script>
+        // Template generated with petrapixel's layout generator.
+        // (Please do not remove this credit.)
+        console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
+    </script>
+</head>
+
+<body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+
+    <div class="layout">
+
+        <!-- =============================================== -->
+        <!-- Header (and Sidebars) will be loaded per JavaScript! Edit layout.js to change. -->
+        <!-- =============================================== -->
+
+
+        <main id="content"> <!-- Do NOT remove the ID here -->
+
+            <noscript>Please enable JavaScript to view this website!</noscript>
+
+            <!-- =============================================== -->
+            <!-- MAIN CONTENT -->
+            <!-- =============================================== -->
+
+            <section>
+                <div class="standard">
+                    <h1>Website Manifesto</h1>
+                    <p>In all frankness, I barely understand the base concept of a site manifesto.<br /> A reason to
+                        make something, a reason for a thing to exist. A document containing the manifest hopes and
+                        dreams riding on a project. A statement of intent. <br /> A lot of the reasons listed here, to
+                        make this website, are incredibly person. They will not resonate with everyone hwo reads them,
+                        but they truly don't have to.<br /> I simply keep mine here to view, for posterity to myself and
+                        hopefully a source of inspiration for others.<br />
+                        I think if you want to do something like this, or hell just start any kind of long term project,
+                        it's always important to examine your reasons for starting things.<br />
+                        It can be easy for me to lose my way sometimes, and I hope to leave this behind as a little
+                        crumb trail to bring me home on the days where it's hard to continue things. <br />
+                        As much as I <i>want</i> to have a lot to say and make some deep, introspective essay about it,
+                        I honestly will probably keep to simpler terms if only to get my point out there.
+                    </p>
+                </div>
+
+                <div>
+                    <hr />
+                </div>
+
+                <div>
+                    <div class="two-columns">
+
+                        <div class="standard">
+                            <h3>Proof of Will</h3>
+                            <div class="scrollbox">
+                                <p>
+                                    Over the years, I've had the desire to start quite a few creative projects. The key
+                                    word in that statement is <u>desire</u>. Despite that fact, I have an incredibly
+                                    difficult time taking those first steps when I'm unsure of my own ability to follow
+                                    through.
+                                    <br />
+                                    In some regard, there's probably some undiagnosed shit that's making it more
+                                    difficult, but I cannot and will not have that be the crux of my inability to do
+                                    something.
+                                    <br />
+                                    It provides me a larger confident boost to work on things in the future when I can
+                                    link back to the tangiable products of my work. This will be one such example to me,
+                                    something I can physically interact with as proof to myself that I can do something
+                                    that requires time, immense effort, and to gain a level of mastery over a new skill
+                                    or medium.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="standard">
+                            <h3>Spite</h3>
+                            <div class="scrollbox">
+                                <p>
+                                    Over the years, I've found that one of the most effective motivators for me to work
+                                    on things that I may have difficulty with, is pure unadulterated <i>spite</i>. That
+                                    and stress, but I'm not about to make a thing that I'm supposed to enjoy a source of
+                                    suffering.<br />
+                                    When I feel like I'm not only giving myself joy, but <i>activley</i> giving the
+                                    middle finger to someone or something else in my way? Mwah~, chef's kiss~<br />
+                                    Here's to me working through my self esteem issues via the power of html, css, and
+                                    javascript.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="standard">
+                        <h3>A need to overshare all the time forever</h3>
+                        <div class="scrollbox">
+                            <p>
+                                So, unsurprising to anyone who knows me, I have a deeply rooted thing with
+                                oversharing/sharing at volumes that are frankly probably a little overwhelming when I'm
+                                excited about something.<br />
+                                In that regard, this is kind of a quiet place for me to do that, where I can make entire
+                                spaces dedicated to things I'd love to go on a tangent about. <br />
+                                On one level, its giving it a place to flow. On the other level, it's giving me
+                                essentially the equivalent of physical presentation materials for when I want to show
+                                something something I like or that continues to eat at my mind like a worm. <br />
+                                This site is my worms, please enjoy them as they wriggle in the earth and keep me awake
+                                at night.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- =============================================== -->
+        <!-- Footer will be loaded per JavaScript! Edit layout.js to change. -->
+        <!-- =============================================== -->
+
+
+        <!-- Closing .layout: -->
+    </div>
+
+
+    <!-- Add any additional Javascript code (<script></script>) here. -->
+
+</body>
+
+</html>
