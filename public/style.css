@@ -50,6 +50,7 @@ body {
   background: var(--background-color);
   background-image: url("https://files.catbox.moe/lxurx3.png");
   background-size: cover;
+  cursor: url('/site images/cursor.cur'), auto;
   
 }
 
