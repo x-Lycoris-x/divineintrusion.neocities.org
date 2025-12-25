@@ -65,8 +65,7 @@
                 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search By Name">
                 
                 <ul id="myUL">
-                    <li></li>
-                    <li><a target="_blank" href="/timewarp/aaron"><img title="Project E.D.E.N." src="/site images/button.png"></a></li>
+                    <li><a href="/aaron">Aaron</a></li>
                     <li><a href="#">Agnes</a></li>
                 
                     <li><a href="#">Billy</a></li>
@@ -672,7 +671,7 @@
             for (i = 0; i < li.length; i++) {
                 a = li[i].getElementsByTagName("a")[0];
                 txtValue = a.textContent || a.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                if (txtValue.indexOf(filter) > -1) {
                     li[i].style.display = "";
                 } else {
                     li[i].style.display = "none";
