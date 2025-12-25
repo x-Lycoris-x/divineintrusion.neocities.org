@@ -139,7 +139,7 @@ function headerHTML() {
         <div id="tamanotchi" class="sidebar-section" style="height:auto;padding:1%;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
        <a href="https://tamanotchi.world/27705c" target="_blank"><img src="https://tamanotchi.world/i2/27705" alt="It's tamaNOTchi! Click to feed!"></a>
        <a href="https://tamanotchi.world/28080c" target="_blank"><img src="https://tamanotchi.world/i2/28080" alt="It's tamaNOTchi! Click to feed!"></a>
-       <a href="https://tamanotchi.world/28249c"><img src="https://tamanotchi.world/i2/28249" alt="It's tamaNOTchi! Click to feed!"></a>
+       <a target="_blank" href="https://tamanotchi.world/28249c"><img src="https://tamanotchi.world/i2/28249" alt="It's tamaNOTchi! Click to feed!"></a>
        </div>
       
       </aside>
