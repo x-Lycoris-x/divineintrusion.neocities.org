@@ -3,38 +3,11 @@
 
 <head>
 
-    <!-- CACHEBUSTING. https://petrapixel.neocities.org/coding/cachebusting -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-
-            // Path to your CSS file (like usual), or empty ("") if you don't have one:
-            const CSS_FILE_PATH = "style.css";
-
-            // Path to your JS file (like usual), or empty ("") if you don't have one:
-            const JS_FILE_PATH = "script.js";
-
-            function loadScript(src) {
-                const script = document.createElement("script");
-                script.src = src + "?nocache=" + new Date().getTime();
-                script.async = true;
-                document.head.appendChild(script);
-            }
-            function loadCSS(href) {
-                const link = document.createElement("link");
-                link.rel = "stylesheet";
-                link.href = href + "?nocache=" + new Date().getTime();
-                document.head.appendChild(link);
-            }
-            if (JS_FILE_PATH) loadScript(JS_FILE_PATH);
-            if (CSS_FILE_PATH) loadCSS(CSS_FILE_PATH);
-        });
-    </script>
-
     <!-- Change your site title: (It is shown in the tab) -->
-    <title>My Art</title>
+    <title>THE LOVE OF MY LIIIIIIFE</title>
 
     <!-- Change your site description: (It is shown in Google results) -->
-    <meta content="Jace's Art" name="description" />
+    <meta content="The page where Jace goes apeshit about their partner" name="description" />
 
     <!-- Setting character encoding and viewport size. Do not remove. -->
     <meta charset="UTF-8">
@@ -42,6 +15,14 @@
 
     <!-- FavIcon (small image in tab), change to any image you want: -->
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="./style.css" rel="stylesheet" />
+
+    <!-- JavaScript: -->
+    <!-- You will have to change this to "../layout.js" if this HTML file is in a subfolder, to "../../layout.js" if this HTML file is in 2 subfolders, etc. -->
+    <script src="./layout.js"></script>
 
     <script>
         // Template generated with petrapixel's layout generator.
@@ -72,8 +53,7 @@
 
             <section>
                 <div class="standard">
-                    <p>HOLY SHIT THE LOVE OF MY LIIIIIIIIFE</p>
-                    <p>AAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                    <p>HOLY SHIT THE LOVE OF MY LIIIIIIIIFE</p><p>AAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
                 </div>
 
             
