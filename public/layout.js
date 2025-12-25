@@ -81,7 +81,7 @@ function headerHTML() {
       
       <!-- Site Button Link -->
       <div id="link-me" class="sidebar-section" style="padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
-      <h4><u>Link Back</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature styalized curse mark" style="width:15%;"></h4>
+      <h4><u>Link Back</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
       <p style="font-size:10px;">Hotlinking is ok!</p>
       <div id="site-button-code">
       <img src="https://divineintrusion.neocities.org/site%20images/button.png" alt="Divine Intrusion Website Button">
@@ -91,15 +91,15 @@ function headerHTML() {
        
        <!-- Changelog Beta -->
        <div id="local-time" class="sidebar-section" style="height:200px;padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
-       <h4><u>Changelog</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature styalized curse mark" style="width:15%;"></h4> 
+       <h4><u>Changelog</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4> 
        <div class="scrollbar" style="margin:1%;height:70%;overflow:scroll;">
 	    <p><strong>12/24/25</strong>: So I still don't quite know how to change how the actual changelog displays, but everything should update through git/github now!</p>
 	    <p><strong>12/7/25</strong>: Updated the official "to-do" list on the index, as well as cleaned up the index to be consistent across devices. Also updated the disclaimers on any pages with potentially NSFW content to make it harder to access by those who may not be of age. It's not a perfect system, but provides at minimum 2-3 barriers of entry to said content.</p>
-	    <p><strong>12/3/25</strong>: Finished addind the actual count to the <a href="/timewarp">system</a> pages, it's going to be a longterm project to actually design the buttons for everyone, unless I can think of a nicer way to do that. Right now I'm valuing the aesthetics of it.
+	    <p><strong>12/3/25</strong>: Finished adding the actual count to the <a href="/timewarp">system</a> pages, it's going to be a long term project to actually design the buttons for everyone, unless I can think of a nicer way to do that. Right now I'm valuing the aesthetics of it.
 	    <p><strong>12/2/25</strong>: Finally got around to fixing the sidebar issues (hopefully) and added a few new things!</p>
 	    <p><strong>11/23/25</strong>: Adjusted the rabbits burrow, added a death mark manga archive</p>
 	    <p><strong>11/16/25</strong>: Revamped the Journal page, finally made it look pretty. Hell of a day to do it too ngl...</p>
-	    <p><strong>11/15/25</strong>: Added the Habit Trial Rabits, Chaos, and Rorrim. Art page updated</p>
+	    <p><strong>11/15/25</strong>: Added the Habit Trial Rabbits, Chaos, and Rorrim. Art page updated</p>
 	    <p><strong>11/11/2025</strong>: Art page added</p>
 	    <p><strong>11/9/2025</strong>: Credits Page Added, Need to adjust it tho XD</p>
 	    <p><strong>11/8/2025</strong>: Spirit Hunter Webring created, 404 page updated</p>
@@ -112,7 +112,7 @@ function headerHTML() {
       
       <!-- Status Cafe -->
       <div id="status-cafe" class="sidebar-section" style="height:200px;padding:1%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
-      <h4><u>Status</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature styalized curse mark" style="width:15%;"></h4>
+      <h4><u>Status</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
       <iframe src="https://petrapixel.neocities.org/widgets/statuscafe?padding=1%&center=1&font-family=Garamond&font-size=14px&color=white&username=lycoris&hideUsernameAndTime=1&width:45%&height=50%&overflow=scroll" frameborder="0" title="Status.Cafe Status"></iframe>
       </div>
       
@@ -124,7 +124,7 @@ function headerHTML() {
 
       <!-- My Time Widget -->
       <div id="local-time" class="sidebar-section" style="padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
-      <h4><u>My Local Time</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature styalized curse mark" style="width:15%;"></h4>
+      <h4><u>My Local Time</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
       <iframe src="https://free.timeanddate.com/clock/ia5ab0uz/n3547/fn9/fs16/fce4ffe7/tct/pct/ftb/pd2/tt0/tw0/tm1/th2/ts1/tb4" frameborder="0" width="100" height="39" allowtransparency="true"></iframe>
       </div>
       
@@ -153,7 +153,7 @@ function headerHTML() {
       
        <!-- Guestbook Links -->
       <div id="guestbook-links" class="sidebar-section" style="height:auto;padding:5%;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
-      <h4><u>Guestbook and Claps</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature styalized curse mark" style="width:15%;"></h4>
+      <h4><u>Guestbook and Claps</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
       <p><a href="https://www.ultraguest.com/view/1757822848">View/Sign Guestbook?</a></p>
       <hr />
       <p><a href="https://neocities.org/site/divineintrusion"><img src="https://88by31.neocities.org/web/hosted.gif"</a></p>
@@ -164,12 +164,12 @@ function headerHTML() {
 	 
         <!-- Online Counter -->
       <div id="online-status" class="sidebar-section" style="padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
-      <h4><u>Currently Online</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature styalized curse mark" style="width:15%;></h4>
+      <h4><u>Currently Online</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;></h4>
       <p><center><a href="http://www.snazzyspace.com/generators/viewer-counter/" title="SnazzySpace.com Viewer Counter" target="_blank"><img src="http://www.snazzyspace.com/generators/viewer-counter/counter.php/fid=1762540146/style=0/counter.png" border="0"></a></center></p></div>
         
         <!-- Recent Media -->
        <div id="recently" class="sidebar-section" style="height:auto;padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
-       <h4><u>My Recents</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature styalized curse mark" style="width:15%;"></h4>
+       <h4><u>My Recent</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
        <h5>Podcast</h5>
        <p><img style="width:50%;" title="Malevolent" src="https://i.scdn.co/image/ab6765630000ba8a07a06522757bd8b41ab5a4f1"></p>
        <hr />
