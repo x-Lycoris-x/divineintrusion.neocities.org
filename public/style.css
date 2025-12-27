@@ -624,7 +624,7 @@ main h6 {
   width: calc(25% - 10px);
   margin: 5px;
   border: 5px solid;
-  overflow: auto;
+  overflow: hidden;
   position: relative;
 }
 
