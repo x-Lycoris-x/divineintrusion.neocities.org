@@ -946,6 +946,10 @@ Curse of Strahd Session Boxes
   margin:auto;
 }
 
+#sessionrecording border-image{
+  z-index: 1;
+}
+
 #description{
   color:black;
   text-align:center;
