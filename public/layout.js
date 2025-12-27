@@ -180,7 +180,7 @@ function headerHTML() {
        <p><a target="_blank" href="https://backloggd.com/u/x_Lycoris_x/"><img style="width:50%;" title="Depth Spelunking (Roblox)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1eIaz9QkMp0mGgd3DO6UmbbEcL7yqpOg5A&s"></a></p>
        <hr />
        <h5>Book</h5>
-       <p><a target="_blank" href="https://www.goodreads.com/user/show/195659899"><img style="width:50%;" title="The Count of Monte Christo" src="https://cloud.firebrandtech.com/api/v2/image/111/9780785847625/CoverArtHigh/XL"></a></p>
+       <p><a target="_blank" href="https://www.goodreads.com/user/show/195659899"><img style="width:50%;" title="The Haunting of Hill House by Shirley Jackson" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81FMksyikrL.jpg&f=1&nofb=1&ipt=2809fef3f2ba47a13c1ebf62c19da9a16a63776020015acf6e6427b46c6b7535"></a></p>
        <hr />
        <h5>Song</h5>
        <iframe src="https://petrapixel.neocities.org/widgets/lastfm?padding=1%&center=1&flex-wrap=wrap&width=45%&height=20%&overflow=scroll&font-family=Garamond&font-size=14px&color=#f4ffe7&username=xLycorisx&swapPositions=0&delimiter=by&underline=1" frameborder="0" title="Last.Fm Status"></iframe>

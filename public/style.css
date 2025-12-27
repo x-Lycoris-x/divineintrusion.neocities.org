@@ -1091,3 +1091,10 @@ Time Warp System Specifics
   background-color: #eee;
   /* Add a hover effect to all links, except for headers */
 }
+
+iframe {
+  width: 100%;
+  height: calc(100vw * 0.5625);
+  /* Maintain a 16:9 aspect ratio */
+  border: none;
+}
