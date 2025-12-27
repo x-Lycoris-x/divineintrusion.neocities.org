@@ -624,7 +624,7 @@ main h6 {
   width: calc(25% - 10px);
   margin: 5px;
   border: 5px solid;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
 }
 
@@ -655,7 +655,7 @@ main h6 {
 
 /* Images on Hover */
 .example-image-gallery div:hover img {
-  transform: scale(1.35) rotate(10deg);
+  transform: scale(1.35);
 }
 
 /* Captions on Hover */
