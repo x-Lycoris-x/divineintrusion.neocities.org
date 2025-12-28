@@ -609,10 +609,6 @@ main h6 {
     iframe {
       width: 100%;
       height: calc(100vw * 0.5625);
-<<<<<<< HEAD
-=======
-      /* Maintain a 16:9 aspect ratio */
->>>>>>> f402643c33f8a4df869cf78368b56fcc3ce03684
       border: none;
     }
   
