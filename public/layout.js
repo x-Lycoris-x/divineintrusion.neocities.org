@@ -60,6 +60,7 @@ function headerHTML() {
 	                  <li><a href="/chaos">Chaos is the Game</a></li>
 	                  <li><a href="/rorrim">Rorrim Sacellum</a></li>
 	                  <li><a href="/curseofstrahd">Curse of Strahd: Winterhold</a></li>
+                    <li><a href="/ao3-codes">Ao3 Style Codes</a></li>
 	                </ul>
 	           </li>
 	          </ul>
