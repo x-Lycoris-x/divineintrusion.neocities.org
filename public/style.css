@@ -605,6 +605,12 @@ main h6 {
   #skip-to-content-link {
     font-size: 1rem;
   }
+
+    iframe {
+      width: 100%;
+      height: calc(100vw * 0.5625);
+      border: none;
+    }
   
 }
 
