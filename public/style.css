@@ -1101,3 +1101,12 @@ Time Warp System Specifics
   background-color: #eee;
   /* Add a hover effect to all links, except for headers */
 }
+
+.monitoring {
+  background-image: url(https://ddnikki.nekoweb.org/monitoring/widget2.png);
+}
+
+/* alternate logo for widget3.png: */
+.monitoringtext {
+  content: url(https://ddnikki.nekoweb.org/monitoring/friendlogomini.png) !important;
+}
