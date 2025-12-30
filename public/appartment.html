@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="/.nekoweb-api/static/site.js" type="text/javascript" defer></script>
+
+    <style>
+        body {
+            background-color: #53ad8a;
+            opacity: 1;
+            background-image: radial-gradient(#5d7b6a 4px, transparent 4px), radial-gradient(#acf2cc 4px, #9ce1c7 4px);
+            background-size: 30px 30px;
+            margin: 0;
+            padding: 0;
+            font-family: MS Gothic;
+        }
+
+        .mainbox {
+            width: 650px;
+            height: 430px;
+            display: flex;
+        }
+
+        .infobox {
+            height: 100%;
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .roomowner {
+            background-color: #a7c8b8;
+            width: 100%;
+            box-shadow: 2px 2px 0px 0px white inset, -2px -2px 0px 0px #6fa590 inset;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .infoboxtitle {
+            background-color: #fc6d27;
+            color: white;
+            border-radius: 10px;
+            width: fit-content;
+            box-sizing: border-box;
+            padding: 0px 5px;
+            margin-bottom: 3px;
+            font-size: 12px;
+        }
+
+        .infoboxspace {
+            width: 100%;
+            height: 20px;
+            background-color: white;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0px 1px 0px 1px #7d8578 inset, 0px -2px 0px 0px white inset;
+            box-sizing: border-box;
+            padding: 5px;
+            overflow: scroll;
+            font-size: 12px;
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+
+        .infoboxspace::-webkit-scrollbar {
+            display: none;
+        }
+
+        .itemspace {
+            width: 100%;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .itembox {
+            height: 50px;
+            width: 50px;
+            background-color: #8f9087;
+            border-radius: 5px;
+            box-shadow: 0px 2px 0px 1px #7d8578 inset, 0px -2px 0px 0px white inset;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            padding: 5px;
+        }
+
+        .itembox img {
+            width: 100%;
+            height: auto;
+        }
+
+        .roombox {
+            width: 400px;
+            height: 353px;
+        }
+
+        html {
+            cursor: url(https://file.garden/ZmFfhSOgiFXI9ZBU/cursors/tomodachi-life-hand.png), auto;
+        }
+
+        .roomowner a {
+            all: unset;
+            cursor: url(https://file.garden/ZmFfhSOgiFXI9ZBU/cursors/tomodachi-life-point.png), auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="mainbox">
+
+        <div style="height: 100%; margin-left: 10px; display: flex; align-items: center; margin-right: 10px;">
+            <div class="roombox"><img src="https://file.garden/ZmFfhSOgiFXI9ZBU/visuals/isometric-room-placeholder.png">
+            </div>
+        </div>
+
+        <div class="infobox">
+            <div class="roomowner"><a href="https://divineintrusion.neocities.org" target="parent">Jace</a></div>
+            <!-- PLS CHANGE THE LINK HREF! -->
+            <div class="infoboxtitle">MOVED ON</div>
+            <div class="infoboxspace" style="padding: 4px 5px">01/01/2026</div>
+            <div class="infoboxtitle">LIKES</div>
+            <div class="infoboxspace" style="margin-bottom: 3px;">Horror Games</div>
+            <div class="infoboxspace" style="margin-bottom: 3px;">Ghost Stories</div>
+            <div class="infoboxspace">Dr. Pepper</div>
+            <div class="infoboxtitle">REASON FOR MOVING IN</div>
+            <div class="infoboxspace" style="height: 50px;">Gotta have somewhere for the kitties to stay warm!</div>
+            <div class="infoboxtitle">FAVORITE PART OF LIVING HERE</div>
+            <div class="infoboxspace" style="height: 50px;">The ability to provide enrichment in my enclosure is quite the upside!</div>
+            <div class="infoboxtitle">ITEMS</div>
+            <div class="itemspace">
+                <div class="itembox" id="item1"><img src=""></div>
+                <div class="itembox" id="item2"></div>
+                <div class="itembox" id="item3"></div>
+                <div class="itembox" id="item4"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
