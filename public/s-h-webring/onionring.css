@@ -14,6 +14,8 @@
 #mark-bearer table {
     background-image: url('https: //files.catbox.moe/lxurx3.png');
     object-fit: contain;
+    width:auto;
+    height:auto;
     margin: 0 auto;
     /* centers the widget */
 }
