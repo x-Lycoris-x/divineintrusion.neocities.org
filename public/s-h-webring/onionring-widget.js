@@ -62,7 +62,7 @@ else {
       <td class='webring-prev'><a href='${sites[previousIndex]}'>â† previous</a></td>
       <td class='webring-info'>This site has heard a rumor... and been <mark>marked</mark> for the trouble. <br />
       This <mark>${ringName}</mark> will have until the stroke of midnight to break their curse.</br>
-      <img style="width:100px;" src="https://files.catbox.moe/shrnwd.png"><br />
+      <img style="width:100px;" src="https://files.catbox.moe/yitfjy.png"><br />
       <span class='webring-links'>
         ${randomText}
         ${indexText}
