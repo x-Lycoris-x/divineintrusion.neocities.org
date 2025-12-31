@@ -30,6 +30,7 @@ if (thisIndex == null) {
     tag.insertAdjacentHTML('afterbegin', `
 
 <div style="padding: 5px; border: double">
+<div style="padding: 5px; border: double">
 <center><p>It seems you are not a <mark>${ringName}...</mark></p>
 <p>Worry not...so long as you <a href="https://divineintrusion.neocities.org/spirithunterwebring"> wander into danger</a>, the curse is sure to find you. </p></center>
 
@@ -57,7 +58,7 @@ else {
 
     //this is the code that displays the widget - EDIT THIS if you want to change the structure
     tag.insertAdjacentHTML('afterbegin', `
-  <table style="border:solid;border-radius:2em;">
+  <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>â† previous</a></td>
       <td class='webring-info'>
