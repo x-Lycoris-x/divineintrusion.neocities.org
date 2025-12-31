@@ -1124,3 +1124,51 @@ Time Warp System Specifics
   }
 
 }
+
+/*-----*/
+/* Spirit Hunter Webring */
+/*-----*/
+
+.shwebring{
+  text-align: center;
+  border: 5px double;
+  border-radius: 1em;
+  border: double;
+  margin:5%;
+  padding:2%;
+
+  & blockquote {
+    border:solid;
+  }
+
+  & h2{
+    text-decoration: underline double;
+  }
+
+  & h3{
+    text-decoration: underline;
+  }
+
+  & ol{
+    list-style-position: inside;
+
+    & li{
+      padding:1%;
+    }
+  }
+
+  & textarea{
+    border: 5px double;
+    font-size: 12px;
+    margin:1%;
+    color:firebrick;
+    background:black;
+    width: 300px;
+    height:70px;
+    
+  }
+}
+
+#ringlink {
+  text-align: center;
+}
