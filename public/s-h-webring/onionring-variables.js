@@ -8,7 +8,6 @@
 //the full URLs of all the sites in the ring
 var sites = [
     'https://divineintrusion.neocities.org',
-    'https://example.com/',
 ];
 
 //the name of the ring
