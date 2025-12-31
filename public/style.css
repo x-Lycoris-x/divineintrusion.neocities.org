@@ -1172,3 +1172,7 @@ Time Warp System Specifics
 #ringlink {
   text-align: center;
 }
+
+.shwebring #index{
+  list-style-type: none;
+}
