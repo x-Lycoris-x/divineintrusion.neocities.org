@@ -12,8 +12,8 @@
 }
 
 #mark-bearer table {
-    background-color: #232c1ec4;
-    /* makes the background pure white */
+    background-image: url('https: //files.catbox.moe/lxurx3.png');
+    object-fit: contain;
     margin: 0 auto;
     /* centers the widget */
 }

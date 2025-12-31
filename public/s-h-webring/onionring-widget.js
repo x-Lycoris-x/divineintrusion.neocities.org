@@ -28,8 +28,7 @@ function randomSite() {
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
     tag.insertAdjacentHTML('afterbegin', `
-
-<div style="padding: 5px; border: double">
+      
 <div style="padding: 5px; border: double">
 <center><p>It seems you are not a <mark>${ringName}...</mark></p>
 <p>Worry not...so long as you <a href="https://divineintrusion.neocities.org/spirithunterwebring"> wander into danger</a>, the curse is sure to find you. </p></center>
