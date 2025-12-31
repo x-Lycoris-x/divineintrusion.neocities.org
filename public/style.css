@@ -1110,3 +1110,17 @@ Time Warp System Specifics
 .monitoringtext {
   content: url(https://ddnikki.nekoweb.org/monitoring/friendlogomini.png) !important;
 }
+
+/*-----*/
+/* Webrings */
+/*-----*/
+
+@media screen and (max-width: 600px) {
+
+  #cat-guardian,
+  #mushroom {
+    visibility: hidden;
+    display: none;
+  }
+
+}
