@@ -1015,25 +1015,24 @@ Time Warp System Specifics
   justify-content: center;
   align-items: center;
   position:relative;
-}
 
-#profile img{
-  width: 75%;
-  position:relative;
-  z-index: 1;
-}
+  & img{
+    width: 75%;
+      position: relative;
+      z-index: 1;
+  }
 
-#profile span{
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius:1em;
-  padding:1%;
-  font-size: 16px;
-  transition: background-color 1s ease 0s;
-}
-
-#profile span:hover{
-  transition: transform 3s;
-  background-color: rgba(25, 111, 41, .5);
+  & span{
+    background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 1em;
+      padding: 1%;
+      font-size: 16px;
+      transition: background-color 1s ease 0s;
+      & :hover{
+        transition: transform 3s;
+          background-color: rgba(25, 111, 41, .5);
+      }
+  }
 }
 
 #profile-hoverable img{
@@ -1176,4 +1175,16 @@ Time Warp System Specifics
 .shwebring #index{
   list-style-type: hidden;
   list-style-position: inside;
+}
+
+/*-----*/
+/* Katabasis Styling */
+/*-----*/
+
+.tarot{
+  width:25%;
+  & #fool{
+    rotate: 90deg;
+  }
+
 }
