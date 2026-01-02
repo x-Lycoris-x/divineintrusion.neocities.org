@@ -1182,9 +1182,125 @@ Time Warp System Specifics
 /*-----*/
 
 .tarot{
-  width:25%;
+  margin:1%;
+  padding:1%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   & #fool{
-    rotate: 90deg;
+    padding:15px;
+    rotate: 190deg;
+    width: 25%;
+    transition:transform .5s ease;
+    }
+  & #fool:hover {
+    transform: scale(1.25);
+    transition: transform .5s ease;
+    rotate: 175deg;
+  }
+
+  & #magician{
+    padding:15px;
+    width:25%;
+    rotate:5deg
+  }
+  & #magician:hover{
+    transform: scale(1.25);
+    transition: transform .5s ease;
+    rotate:-3deg;
+  }
+
+
+
+  & #highpriestess{
+    width: 25%;
+    padding:15px;
+    rotate:-5deg
+  }
+  & #highpriestess:hover{
+    transform: scale(1.25);
+    transition: transform .5s ease;
+    rotate: 2deg;
+  }
+
+  & #empress{
+    width: 25%;
+  }
+
+  & #emperor{
+    width: 25%;
+  }
+
+  & #hierophant{
+    width: 25%;
+  }
+
+  & #lovers{
+    width: 25%;
+  }
+
+  & #lovers{
+    width: 25%;
+  }
+
+  & #chariot{
+    width: 25%;
+  }
+
+  & #strength{
+    width: 25%;
+  }
+
+  & #hermit{
+    width: 25%;
+  }
+
+  & #wheeloffortune{
+    width: 25%;
+  }
+
+  & #justice{
+    width: 25%;
+  }
+
+  & #hangedman{
+    width: 25%;
+  }
+
+  & #death{
+    width: 25%;
+  }
+
+  & #temperance{
+    width: 25%;
+  }
+
+  & #devil{
+    width: 25%;
+  }
+
+  & #tower{
+    width: 25%;
+  }
+
+  & #star{
+    width: 25%;
+  }
+
+  & #moon{
+    width: 25%;
+  }
+
+  & #sun{
+    width: 25%;
+  }
+
+  & #judgement{
+    width: 25%;
+  }
+
+  & #world{
+    width: 25%;
   }
 
 }
