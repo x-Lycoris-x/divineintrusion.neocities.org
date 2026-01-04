@@ -175,7 +175,7 @@ function headerHTML() {
        <p><img style="width:50%;" title="Malevolent" src="https://i.scdn.co/image/ab6765630000ba8a07a06522757bd8b41ab5a4f1"></p>
        <hr />
        <h5>Tv/Movie</h5>
-       <p><img style="width:50%;" title="Sherlock Holmes: A Game of Shadows (2011)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwdM90xKCK5Bt6GJf3pauUGondxAZtCQqZwQZb4-zGf5fNuHRA4UAtNinv-Icnbl_hG85JIA&s=10"></p>
+       <p><img style="width:50%;" title="Oshi no Ko" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic1.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2023%2F06%2Foshi-no-ko-tv-poster.jpg&f=1&nofb=1&ipt=de88d293d9d09bc1ded5f3a937848347a4a1b83b0f9991be8b0fe39c06c7ea94"></p>
        <hr />
        <h5>Game</h5>
        <p><a target="_blank" href="https://backloggd.com/u/x_Lycoris_x/"><img style="width:50%;" title="Depth Spelunking (Roblox)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1eIaz9QkMp0mGgd3DO6UmbbEcL7yqpOg5A&s"></a></p>
