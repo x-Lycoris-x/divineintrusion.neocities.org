@@ -49,7 +49,7 @@ body {
   line-height: 1.2;
   background: var(--background-color);
   background-image: url("https://files.catbox.moe/lxurx3.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 ::selection {
@@ -853,7 +853,7 @@ div.scroll-container {
   left:2vh;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .a03-stats {
     visibility: hidden;
   display: none;
@@ -994,7 +994,7 @@ Curse of Strahd Session Boxes
   transition: transform .5s;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #sessionheader, #topright, #bottomleft {
     visibility: hidden;
   display: none;
@@ -1114,7 +1114,7 @@ Time Warp System Specifics
 /* Webrings */
 /*-----*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   #cat-guardian,
   #mushroom {

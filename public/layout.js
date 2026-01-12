@@ -34,27 +34,26 @@ function headerHTML() {
 	        <!-- NAVIGATION -->
 	        <nav>
 	          <ul>
-	            <li><a href="/">Home</a></li> |
+	            <li><a href="/">[ Home ]</a></li> 
 	            <li>
-	              <strong>Profile</strong> |
+	              <strong>[ Personal Profile ]</strong> 
 	                <ul>
-	                  <li><a href="/about">About Me</a></li>
+	                  <li><a href="/about">About the Webmaster(s)</a></li>
 	                  <li><a href="/webrings">Webrings</a></li>
 	                  <li><a href="/cats">Cats</a></li>
 	                  <li><a href="/manifesto">Site Manifesto</a></li>
 	                </ul>
 	            <li>
-	              <strong>Creations</strong> |
+	              <strong>[ Creations ]</strong> |
 	                <ul>
 	                  <li><a href="/art">Art</a></li>
 	                  <li><a href="/writing">Writing</a></li>
 	                  <li><a href="/rabbits"><center>Habit Trials Rabbits</center></a></li>
 	                  <li><a href="/spirithunterwebring">Mark Bearer Webring</a></li>
 	                </ul> 
-	            <li><a href="/journal">Journal</a></li> |
-	            <li><a href="/timewarp">Webmaster(s)</a></li> |
+	            <li><a href="/journal">[ Journal ]</a></li> |
 	            <li>
-	                <strong>Projects</strong>
+	                <strong>[ Projects ]</strong>
 	                <ul>
 	                  <li><a href="/katabasis">Katabasis</a></li>
 	                  <li><a href="/chaos">Chaos is the Game</a></li>
