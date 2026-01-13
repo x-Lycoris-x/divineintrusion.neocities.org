@@ -44,14 +44,14 @@ function headerHTML() {
 	                  <li><a href="/manifesto">Site Manifesto</a></li>
 	                </ul>
 	            <li>
-	              <strong>[ Creations ]</strong> |
+	              <strong>[ Creations ]</strong> 
 	                <ul>
 	                  <li><a href="/art">Art</a></li>
 	                  <li><a href="/writing">Writing</a></li>
 	                  <li><a href="/rabbits"><center>Habit Trials Rabbits</center></a></li>
 	                  <li><a href="/spirithunterwebring">Mark Bearer Webring</a></li>
 	                </ul> 
-	            <li><a href="/journal">[ Journal ]</a></li> |
+	            <li><a href="/journal">[ Journal ]</a></li> 
 	            <li>
 	                <strong>[ Projects ]</strong>
 	                <ul>
