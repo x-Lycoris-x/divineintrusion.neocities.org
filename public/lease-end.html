@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- CACHEBUSTING. https://petrapixel.neocities.org/coding/cachebusting -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // Path to your CSS file (like usual), or empty ("") if you don't have one:
+            const CSS_FILE_PATH = "style.css";
+
+            // Path to your JS file (like usual), or empty ("") if you don't have one:
+            const JS_FILE_PATH = "script.js";
+
+            function loadScript(src) {
+                const script = document.createElement("script");
+                script.src = src + "?nocache=" + new Date().getTime();
+                script.async = true;
+                document.head.appendChild(script);
+            }
+            function loadCSS(href) {
+                const link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = href + "?nocache=" + new Date().getTime();
+                document.head.appendChild(link);
+            }
+            if (JS_FILE_PATH) loadScript(JS_FILE_PATH);
+            if (CSS_FILE_PATH) loadCSS(CSS_FILE_PATH);
+        });
+    </script>
+
+    <!-- Change your site title: (It is shown in the tab) -->
+    <title>My Breadcrumb Trail</title>
+
+    <!-- Change your site description: (It is shown in Google results) -->
+    <meta content="Jace Shepherd's personal website" name="description" />
+
+    <!-- Setting character encoding and viewport size. Do not remove. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FavIcon (small image in tab), change to any image you want: -->
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="./style.css" rel="stylesheet" />
+
+    <!-- JavaScript: -->
+    <!-- You will have to change this to "../layout.js" if this HTML file is in a subfolder, to "../../layout.js" if this HTML file is in 2 subfolders, etc. -->
+    <script src="./layout.js"></script>
+
+    <script>
+        // Template generated with petrapixel's layout generator.
+        // (Please do not remove this credit.)
+        console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
+    </script>
+</head>
+
+<body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+
+    <div class="layout">
+
+        <!-- =============================================== -->
+        <!-- Header (and Sidebars) will be loaded per JavaScript! Edit layout.js to change. -->
+        <!-- =============================================== -->
+
+
+        <main id="content"> <!-- Do NOT remove the ID here -->
+
+            <noscript>Please enable JavaScript to view this website!</noscript>
+
+            <!-- =============================================== -->
+            <!-- MAIN CONTENT -->
+            <!-- =============================================== -->
+
+            <section>
+                <div class="standard">
+                    <h1>Time Remaining Until I Need to Be Vacated From My Apartment</h1>
+                    <h3 id="countdown"></h3>
+                
+                
+                    <script>
+                        // Set the date we're counting down to
+                        var countDownDate = new Date("July 26, 2026 09:00:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function () {
+
+                            // Get today's date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now and the count down date
+                            var distance = countDownDate - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                            // Output the result in an element with id="demo"
+                            document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+                                + minutes + "m " + seconds + "s ";
+
+                            // If the count down is over, write some text 
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("countdown").innerHTML = "TIMES UP";
+                            }
+                        }, 1000);
+                    </script>          </div>
+            </section>
+
+            <section>
+                <div class="standard">
+                    <h1>Checklist of things I will need to do before I move</h1>
+                    <ul>
+                        <li>What the fuck am I doing with my old shit</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- =============================================== -->
+        <!-- Footer will be loaded per JavaScript! Edit layout.js to change. -->
+        <!-- =============================================== -->
+
+
+        <!-- Closing .layout: -->
+    </div>
+
+
+    <!-- Add any additional Javascript code (<script></script>) here. -->
+
+</body>
+
+</html>
