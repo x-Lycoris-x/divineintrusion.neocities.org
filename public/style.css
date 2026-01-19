@@ -48,8 +48,8 @@ body {
   font-family: var(--font);
   line-height: 1.2;
   background: var(--background-color);
-  background-image: url("https://files.catbox.moe/lxurx3.png");
-  background-size: cover;
+  background-image: url("/site images/CHECKS.JPG");
+  background-size: contain;
 }
 
 ::selection {

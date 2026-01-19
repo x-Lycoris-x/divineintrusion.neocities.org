@@ -44,12 +44,10 @@ function headerHTML() {
 	                  <li><a href="/manifesto">Site Manifesto</a></li>
 	                </ul>
 	            <li>
-	              <strong>[ Creations ]</strong> 
+	              <strong>[ My Creations ]</strong> 
 	                <ul>
 	                  <li><a href="/art">Art</a></li>
 	                  <li><a href="/writing">Writing</a></li>
-	                  <li><a href="/rabbits"><center>Habit Trials Rabbits</center></a></li>
-	                  <li><a href="/spirithunterwebring">Mark Bearer Webring</a></li>
 	                </ul> 
 	            <li><a href="/journal">[ Journal ]</a></li> 
 	            <li>
@@ -60,8 +58,17 @@ function headerHTML() {
 	                  <li><a href="/rorrim">Rorrim Sacellum</a></li>
 	                  <li><a href="/curseofstrahd">Curse of Strahd: Winterhold</a></li>
                     <li><a href="/ao3-codes">Ao3 Style Codes</a></li>
+                    <li><a href="/spirithunterwebring">Mark Bearer Webring</a></li>
 	                </ul>
 	           </li>
+             <li><a href="/shrines">[ Shrines ]</a></li>
+             <li>
+              <strong>[ My OCs ]</strong>
+              <ul>
+                <li><a href="/spirithunterocs">Spirit Hunter</a></li>
+                <li><a href="/rabbits"><center>Habit Trials Rabbits</center></a></li>
+              </ul>
+            </li>
 	          </ul>
 	        </nav>
         	
