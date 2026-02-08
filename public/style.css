@@ -1335,7 +1335,7 @@ Time Warp System Specifics
 #ringlink{
   position:absolute;
   z-index: 9;
-  width:24%;
+  width:190px;
   height: auto;
   background-color: #232c1ec4;
   border: 6px ridge rgb(81, 96, 19);
