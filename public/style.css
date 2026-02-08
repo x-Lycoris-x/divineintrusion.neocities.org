@@ -1353,3 +1353,18 @@ Time Warp System Specifics
     display: none;
   }
 }
+
+/* Style the close button (span) */
+.close {
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+  top: 5%;
+  right: 0%;
+  padding: 1%;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {
+  background: #0c1e04;
+}

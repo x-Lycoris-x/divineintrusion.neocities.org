@@ -57,6 +57,7 @@
 <section>
     <!--Ringlink Drag-->
     <div id="ringlink">
+        <span class="close">X</span>
         <div id="ringlinkheader">
             <h5>Ringlink</h5>
         </div>
@@ -284,11 +285,6 @@
     <!-- Add any additional Javascript code (<script></script>) here. -->
     <link rel="stylesheet" href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring.css">
 
-    <script>$(".x-wrapper").on("click", function() {
-    $(event.target).closest(".nice-box").animate( {opacity: 0, height: 0}, 300, function(){
-    this.remove();
-    });   });</script>
-
     <script>// Make the DIV element draggable:
         dragElement(document.getElementById("ringlink"));
 
@@ -332,6 +328,19 @@
                 document.onmousemove = null;
             }
            }</script>
+
+           <script>
+            // Get all elements with class="close"
+                var closebtns = document.getElementsByClassName("close");
+                var i;
+
+                // Loop through the elements, and hide the parent, when clicked on
+                for (i = 0; i < closebtns.length; i++) {
+                    closebtns[i].addEventListener("click", function () {
+                        this.parentElement.style.display = 'none';
+                    });
+                }
+           </script>
 </body>
 
 </html>
