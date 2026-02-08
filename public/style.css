@@ -1376,3 +1376,10 @@ Time Warp System Specifics
 .close:hover {
   background: linear-gradient(180deg, #ffffff, #db0000d9);
 }
+
+@media screen and (max-width: 800px) {
+  #hidemobile {
+    visibility: hidden;
+    display: none;
+  }
+}
