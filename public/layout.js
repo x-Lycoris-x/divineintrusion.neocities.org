@@ -148,6 +148,8 @@ function headerHTML() {
      <a href="https://tamanotchi.world/28080c" target="_blank"><img src="https://tamanotchi.world/i2/28080" alt="It's tamaNOTchi! Click to feed!"></a>
      <a target="_blank" href="https://tamanotchi.world/28249c"><img src="https://tamanotchi.world/i2/28249" alt="It's tamaNOTchi! Click to feed!"></a>
      </div>
+
+     <!-- // Begin Current Moon Phase HTML (c) MoonConnection.com // --><table cellpadding="0" cellspacing="0" border="0" width="130"><tr><td align="center"><img src="https://www.moonmodule.com/cs/dm/s.gif" width="1" height="196" border="0" alt="" /></td><td background="https://www.moonmodule.com/cs/dm/vn.gif" valign="bottom" align="center"><a href="https://www.moonconnection.com" target="mc_moon_ph"><img src="https://www.moonmodule.com/cs/dm/s.gif" width="128" height="150" border="0" alt="" /></a><table cellpadding="0" cellspacing="0" border="0" width="120" height="20"><tr><td align="center" bgcolor="#000000"><a href="https://www.moonconnection.com/moon_cycle.phtml" target="mc_moon_ph"><font color="#7F7F7F" size="1" face="arial,helvetica,sans-serif"><span style="color:#7F7F7F;font-family:arial,helvetica,sans-serif;font-size:10px;">moon cycles</span></font></a></td></tr></table><img src="https://www.moonmodule.com/cs/dm/s.gif" width="1" height="4" border="0" alt="" /></td><td><img src="https://www.moonmodule.com/cs/dm/s.gif" width="1" height="196" border="0" alt="" /></td></tr></table><!-- // end moon phase HTML // -->
     
     </aside>
 
