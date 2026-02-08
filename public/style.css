@@ -1335,15 +1335,19 @@ Time Warp System Specifics
 #ringlink{
   position:absolute;
   z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px double #d3d3d3;
+  width:24%;
+  height: auto;
+  background-color: #232c1ec4;
+  border: 6px ridge rgb(81, 96, 19);
   text-align: center;
+  margin:0;
+  padding:0;
   
   #ringlinkheader {
       cursor: move;
       width: 180px;
       z-index: 10;
-      background-color: #293d0b;
+      background-color: #293d0bdc;
       color: #fff; }
 
 }
@@ -1356,15 +1360,19 @@ Time Warp System Specifics
 
 /* Style the close button (span) */
 .close {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   cursor: pointer;
   position: absolute;
-  overflow: hidden;
-  top: 5%;
-  right: 0%;
-  padding: 1%;
+  top: 4%;
+  right: 1%;
+  padding: 0% 5% 0% 5%;
+  border: 5px black;
+  border-radius: 5% 0% 25% 25%;
+  background: linear-gradient(180deg, #ffe1e2, #ff0000);
   transform: translate(0%, -50%);
 }
 
 .close:hover {
-  background: #0c1e04;
+  background: linear-gradient(180deg, #ffffff, #db0000d9);
 }
