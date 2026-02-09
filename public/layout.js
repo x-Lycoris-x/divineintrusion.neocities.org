@@ -217,18 +217,7 @@ function footerHTML() {
     <!-- =============================================== -->
 
     <footer>
-         <p> Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html"> petrapixel's layout generator</a>. </p>
-         <p> Slowly but surely, remaking it on my own (just using the generator to study what html looks like lol)</p>
-          
-           <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-kofiWidgetOverlay.draw('xx_lycoris_xx', {
-  'type': 'floating-chat',
-  'floating-chat.donateButton.text': 'Coffee?',
-  'floating-chat.donateButton.background-color': '#232c1e',
-  'floating-chat.donateButton.text-color': '#e4ffe7'
-});
-</script>
+         <p style="text-align:center;">© divineintrusion 2024 - ∞ | <a href="https://neocities.org/site/divineintrusion">My Neocities Profile</a> | <a href="/sitemap">sitemap</a> | <a href="https://github.com/x-Lycoris-x/divineintrusion.neocities.org">GitHub</a> | <a href="https://ko-fi.com/xx_lycoris_xx">Tip Jar</a> | Initial Template by <a href="https://petrapixel.neocities.org/coding/layout-generator">Petrapixels Layout Generator</a>
         
     </footer>`;
 }
