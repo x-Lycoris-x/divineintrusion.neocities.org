@@ -1,0 +1,78 @@
+# WIP pages:
+/public/layouts
+/public/test.html
+/public/coding/layouts.html
+/public/shrines/ggnsp.html
+/public/shrines/ggnsp.css
+/public/shrines/happylist.html
+/public/shrines/happylist.css
+/public/coding/glossary.html
+/public/fun/talking-games.html
+
+# Ignore these files because neocities doesn't allow them:
+*.cur
+*.mp3
+
+# Always ignore:
+/public/layout-generator/test
+notes.txt
+img-Verknüpfung.lnk
+public/assets/js/layoutGenerator.js.LICENSE.txt
+/.vscode
+
+# -----------------------------------------------------------------
+# .gitignore
+# Bare Minimum Git
+# https://salferrarello.com/starter-gitignore-file/
+# ver 20210211
+# -----------------------------------------------------------------
+
+# ignore all files starting with  ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore private/secret files
+*.der
+*.key
+*.pem
+
+# --------------------------------------------------------
+# BEGIN Explictly Allowed Files (i.e. do NOT ignore these)
+# --------------------------------------------------------
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+!.env.example
