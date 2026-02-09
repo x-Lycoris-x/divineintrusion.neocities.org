@@ -19,6 +19,8 @@ notes.txt
 img-Verknüpfung.lnk
 public/assets/js/layoutGenerator.js.LICENSE.txt
 /.vscode
+
+# These annoying bastards keep showing up despite not existing anymore, Im firing a gun in their general direction for causing me endless deploy errors FUCK YOU
 shrines/Kazuo Yashiki.html
 site images/CHECKS.JPG
 site\\ images/favicon.png
