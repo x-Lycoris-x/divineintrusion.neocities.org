@@ -1,24 +1,14 @@
 # WIP pages:
-/public/layouts
-/public/test.html
-/public/coding/layouts.html
-/public/shrines/ggnsp.html
-/public/shrines/ggnsp.css
-/public/shrines/happylist.html
-/public/shrines/happylist.css
-/public/coding/glossary.html
-/public/fun/talking-games.html
+/public/shrines/
+/public/
 
 # Ignore these files because neocities doesn't allow them:
 *.cur
 *.mp3
 
 # Always ignore:
-/public/layout-generator/test
-notes.txt
-img-Verknüpfung.lnk
-public/assets/js/layoutGenerator.js.LICENSE.txt
-/.vscode
+/.vscode/
+/.vscode/settings.json
 
 # These annoying bastards keep showing up despite not existing anymore, Im firing a gun in their general direction for causing me endless deploy errors FUCK YOU
 shrines/Kazuo Yashiki.html
@@ -29,7 +19,7 @@ timewarp/jerrico.html
 timewarp/koga.html
 timewarp/rain.html
 timewarp/riegen.htm
-site\\\\ images/favicon.png
+site\\ images/favicon.png
 
 
 # -----------------------------------------------------------------
