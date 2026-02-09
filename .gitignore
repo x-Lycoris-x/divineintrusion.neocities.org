@@ -1,5 +1,26 @@
 # WIP pages:
 /public/shrines
+/public/katabasis
+/public/alistor.html
+/public/ao3-codes.html
+/public/appartment.html
+/public/bio.html
+/public/chaos.html
+/public/bristol.html
+/public/cosdm.html
+/public/cosplayers.html
+/public/credits.html
+/public/dm-manga.html
+/public/fillian.html
+/public/katabasis.html
+/public/leaf.html
+/public/lease-end.html
+/public/rorrim.html
+/public/shop.html
+/public/shrines.html
+/public/temp.html
+/public/toris.html
+
 
 # Ignore these files because neocities doesn't allow them:
 *.cur
@@ -17,8 +38,7 @@ timewarp/arrigal.html
 timewarp/jerrico.html
 timewarp/koga.html
 timewarp/rain.html
-timewarp/riegen.htm
-site\\ images/favicon.png
+timewarp/riegen.html
 
 
 # -----------------------------------------------------------------
