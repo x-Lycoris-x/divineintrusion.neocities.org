@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- CACHEBUSTING. https://petrapixel.neocities.org/coding/cachebusting -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // Path to your CSS file (like usual), or empty ("") if you don't have one:
+            const CSS_FILE_PATH = "style.css";
+
+            // Path to your JS file (like usual), or empty ("") if you don't have one:
+            const JS_FILE_PATH = "script.js";
+
+            function loadScript(src) {
+                const script = document.createElement("script");
+                script.src = src + "?nocache=" + new Date().getTime();
+                script.async = true;
+                document.head.appendChild(script);
+            }
+            function loadCSS(href) {
+                const link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = href + "?nocache=" + new Date().getTime();
+                document.head.appendChild(link);
+            }
+            if (JS_FILE_PATH) loadScript(JS_FILE_PATH);
+            if (CSS_FILE_PATH) loadCSS(CSS_FILE_PATH);
+        });
+    </script>
+
+    <!-- Change your site title: (It is shown in the tab) -->
+    <title>The Church of Rorrim Sacellum</title>
+
+    <!-- Change your site description: (It is shown in Google results) -->
+    <meta content="A Rorrim Sacellum Shrine" name="description" />
+
+    <!-- Setting character encoding and viewport size. Do not remove. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FavIcon (small image in tab), change to any image you want: -->
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="./style.css" rel="stylesheet" />
+
+    <!-- JavaScript: -->
+    <!-- You will have to change this to "../layout.js" if this HTML file is in a subfolder, to "../../layout.js" if this HTML file is in 2 subfolders, etc. -->
+    <script src="./layout.js"></script>
+
+    <script>
+        // Template generated with petrapixel's layout generator.
+        // (Please do not remove this credit.)
+        console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
+    </script>
+</head>
+
+<body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+
+    <div class="layout">
+
+        <!-- =============================================== -->
+        <!-- Header (and Sidebars) will be loaded per JavaScript! Edit layout.js to change. -->
+        <!-- =============================================== -->
+
+
+        <main id="content"> <!-- Do NOT remove the ID here -->
+
+            <noscript>Please enable JavaScript to view this website!</noscript>
+
+            <!-- =============================================== -->
+            <!-- MAIN CONTENT -->
+            <!-- =============================================== -->
+
+
+            <section>
+                <div>
+                    <h1>AAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+                    <p>x.</p>
+                </div>
+
+                <div style="padding: 5px; border: dotted; border-radius: 2em; margin: 10px;">
+                    <h2>Personal History</h2>
+                </div>
+
+                <div style="padding: 5px; border: dotted; border-radius: 2em; margin: 10px;">
+                    <h2>The Story So Far (Spoilers Will Be Marked)</h2>
+                </div>
+
+                <div style="padding: 5px; border: dotted; border-radius: 2em; margin: 10px;">
+                    <h2>The Hand I Have To Play</h2>
+                    <p>Over the years, I've increasingly been given the responsibility and honor of playing various
+                        characters in this narrative. This section is my sort of shrine to these dear pieces of my
+                        heart!</p>
+                    <!-- I want to adjust the border to be an image border instead of the usual border, give it more personality -->
+                    <div style="padding: 20px; border: double; border-radius: 5em; margin: 15px;">
+                        <h2>〖Gayle Hawthorne | 🍷〗</h2>
+                        <div class="two-columns">
+
+                            <div class="scroll-container" style="border: solid 1px; border-radius:2em;">
+                                <img src="https://files.catbox.moe/5it6td.png" alt="">
+                            </div>
+                            <div>
+                                <blockquote>
+                                    <p><strong><u>Full Name:</u></strong> <span class="spoiler">Eiji Oshiro</span></p>
+                                    <p><strong><u>Pronouns:</u></strong> He/She</p>
+                                    <p><strong><u>Starting Age:</u></strong> 40</p>
+                                    <p><strong><u>Horror Affiliation:</u></strong> Jackel</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <hr />
+                        <p><strong>Personal Remarks:</strong> X</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- =============================================== -->
+        <!-- Footer will be loaded per JavaScript! Edit layout.js to change. -->
+        <!-- =============================================== -->
+
+
+        <!-- Closing .layout: -->
+    </div>
+
+
+    <!-- Add any additional Javascript code (<script></script>) here. -->
+</body>
+
+</html>
