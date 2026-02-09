@@ -1,26 +1,28 @@
 # WIP pages:
-/public/shrines
-/public/katabasis
-/public/alistor.html
-/public/ao3-codes.html
-/public/appartment.html
-/public/bio.html
-/public/chaos.html
-/public/bristol.html
-/public/cosdm.html
-/public/cosplayers.html
-/public/credits.html
-/public/dm-manga.html
-/public/fillian.html
-/public/katabasis.html
-/public/leaf.html
-/public/lease-end.html
-/public/rorrim.html
-/public/shop.html
-/public/shrines.html
-/public/temp.html
-/public/toris.html
-/public/journal.html
+public/shrines/
+public/katabasis/
+/public/katabasis/characters.html
+/public/katabasis/characters/nicholi.html
+alistor.html
+ao3-codes.html
+appartment.html
+bio.html
+chaos.html
+bristol.html
+cosdm.html
+cosplayers.html
+credits.html
+dm-manga.html
+fillian.html
+katabasis.html
+leaf.html
+lease-end.html
+rorrim.html
+shop.html
+shrines.html
+temp.html
+toris.html
+journal.html
 
 
 # Ignore these files because neocities doesn't allow them:
