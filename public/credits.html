@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- CACHEBUSTING. https://petrapixel.neocities.org/coding/cachebusting -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // Path to your CSS file (like usual), or empty ("") if you don't have one:
+            const CSS_FILE_PATH = "style.css";
+
+            // Path to your JS file (like usual), or empty ("") if you don't have one:
+            const JS_FILE_PATH = "script.js";
+
+            function loadScript(src) {
+                const script = document.createElement("script");
+                script.src = src + "?nocache=" + new Date().getTime();
+                script.async = true;
+                document.head.appendChild(script);
+            }
+            function loadCSS(href) {
+                const link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = href + "?nocache=" + new Date().getTime();
+                document.head.appendChild(link);
+            }
+            if (JS_FILE_PATH) loadScript(JS_FILE_PATH);
+            if (CSS_FILE_PATH) loadCSS(CSS_FILE_PATH);
+        });
+    </script>
+
+    <!-- Change your site title: (It is shown in the tab) -->
+    <title>The Other Shore</title>
+
+    <!-- Change your site description: (It is shown in Google results) -->
+    <meta content="Jace Shepherd's personal website" name="description" />
+
+    <!-- Setting character encoding and viewport size. Do not remove. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FavIcon (small image in tab), change to any image you want: -->
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- CSS: -->
+    <!-- You will have to change this to "../style.css" if this HTML file is in a subfolder, to "../../style.css" if this HTML file is in 2 subfolders, etc. -->
+    <link href="./style.css" rel="stylesheet" />
+
+    <!-- JavaScript: -->
+    <!-- You will have to change this to "../layout.js" if this HTML file is in a subfolder, to "../../layout.js" if this HTML file is in 2 subfolders, etc. -->
+    <script src="./layout.js"></script>
+
+    <script>
+        // Template generated with petrapixel's layout generator.
+        // (Please do not remove this credit.)
+        console.log("%cTemplate generated with petrapixel's layout generator: https://petrapixel.neocities.org/coding/layout-generator", "font-size: 14pt; color: #922a45; background: #ffd3ef");
+    </script>
+
+<!-- CACHEBUSTING. https://petrapixel.neocities.org/coding/cachebusting -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Path to your CSS file (like usual), or empty ("") if you don't have one:
+        const CSS_FILE_PATH = "style.css";
+
+        // Path to your JS file (like usual), or empty ("") if you don't have one:
+        const JS_FILE_PATH = "script.js";
+
+        function loadScript(src) {
+            const script = document.createElement("script");
+            script.src = src + "?nocache=" + new Date().getTime();
+            script.async = true;
+            document.head.appendChild(script);
+        }
+        function loadCSS(href) {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = href + "?nocache=" + new Date().getTime();
+            document.head.appendChild(link);
+        }
+        if (JS_FILE_PATH) loadScript(JS_FILE_PATH);
+        if (CSS_FILE_PATH) loadCSS(CSS_FILE_PATH);
+    });
+</script>
+</head>
+
+<body>
+    <!-- The next line is a skip-to-content link for keyboard users. Do not remove it! -->
+    <a href="#content" id="skip-to-content-link">Skip to content</a>
+
+    <div class="layout">
+
+        <!-- =============================================== -->
+        <!-- Header (and Sidebars) will be loaded per JavaScript! Edit layout.js to change. -->
+        <!-- =============================================== -->
+
+
+        <main id="content"> <!-- Do NOT remove the ID here -->
+
+            <noscript>Please enable JavaScript to view this website!</noscript>
+
+            <!-- =============================================== -->
+            <!-- MAIN CONTENT -->
+            <!-- =============================================== -->
+
+            <section>
+                <div class="standard">
+                    <h1>Credits</h1>
+                    <p>This website was designed and coded by myself using primarily VCodeStudio.</p>
+                    
+                    <p>My code is publically available on <a href="https://github.com/x-Lycoris-x/divineintrusion.neocities.org">GitHub.</a></p>
+
+                    <hr />
+
+                    <div id="toc"></div>
+                </div>
+
+                <div class="standard">
+                    <h2>Fonts</h2>
+                    <ul>
+                        <li>Body: Times New Roman, serif</li>
+                        <li>Heading: Garamond, serif</li>
+                        <li>Curse of Strahd Entries: <a href="https://www.1001fonts.com/italianno-font.html">Italianno</a></li>
+                    </ul>
+                </div>
+
+                <div class="standard">
+                    <h2>Images</h2>
+
+                    <ul>
+                        <li> <a href="https://www1.flightrising.com/forums/cc/3078623">Identity Buttons (fluffmoth on FlightRising)</a>
+                            <a href="https://idbuttons.neocities.org/database/">(Link to more)</a> <img src="https://i.imgur.com/qWAlLLU.png"></li>
+                        <li></li>
+                    </ul>
+
+                    <blockquote>If I have used a graphic you made without credit please tell me so in <a href="https://www.ultraguest.com/view/1757822848">my guestbook</a>! I get some of my graphics from
+                    reposters so I don't know the original creator of all graphics.</blockquote>
+                    <hr />
+
+                    <ul>
+                        <li>Blinkies, stamps, buttons, and userboxes are 'stolen' from other people's websites :)</li>
+                        <li>Pictures of me and my art belong to me, please don't share them.</li>
+                        <li>Some of the images on the "about me" page, as well as most of the images I used for my spotify playlist covers, are from Pinterest.</li>
+                    </ul>
+                </div>
+
+                <div class="standard">
+                    <h2>Widgets</h2>
+
+                    <ul>
+                        <li><a href="https://www.ultraguest.com/"><b>Guestbook </b>(Ultraguest)</a></li>
+                        <li><a href="https://status.cafe/"><b>Status Widget</b> (Status.cafe)</a></li>
+                        <li><a href="https://github.com/biancarosa/lastfm-last-played"><b>last.fm widget </b>(by biancarosa)</a></li>
+                        <li><a href="https://www.timeanddate.com/clocks/free.html"><b>my current time </b> (by timeanddate.com)</a></li>
+                        <li><a href="https://clap.fc2.com/en/"><b>clap button</b> (by fc2 clap)</a></li>
+                        <li><a href="https://www.snazzyspace.com/generators/viewer-counter/"><b>"1 online" viewer counter</b> (by snazzyspace)</a></li>
+                        <li><a href="https://dimden.dev/moonwidget/"><b>Moon Phase Widget</b> (by DimDen.dev)</a></li>
+                    </ul>
+                </div>
+
+                <div class="standard">
+                    <h2>Libraries/Plugins</h2>
+
+                    <ul>
+                        <li><a href="https://github.com/marketplace/actions/deploy-to-neocities">deploy to neocities (GitHub Action)</a> (tutorial by PetraPixels <a href="https://petrapixel.neocities.org/coding/neocities#how-to-upload-changes-to-neocities-automatically">here</a>)</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- =============================================== -->
+        <!-- Footer will be loaded per JavaScript! Edit layout.js to change. -->
+        <!-- =============================================== -->
+
+
+        <!-- Closing .layout: -->
+    </div>
+
+
+    <!-- Add any additional Javascript code (<script></script>) here. -->
+
+    <script>initTableOfContents();
+    
+    function initTableOfContents() {
+    const container = document.querySelector("#toc");
+    if (!container) return;
+    
+    const allHeadings = document.querySelectorAll("h2");
+    if (allHeadings.length < 2) return; let output="<b>Table of Contents:</b><ol>" ; [...allHeadings].forEach((headingEl)=>
+        {
+        const title = headingEl.innerHTML;
+        const link =
+        headingEl.getAttribute("id") ||
+        encodeURI(
+        title
+        .replaceAll(" ", "-")
+        .replaceAll("#", "")
+        .replaceAll("&", "")
+        .replaceAll(/<[^>]*>?/gm, "")
+            .replaceAll("--", "-")
+            ).toLowerCase();
+            headingEl.setAttribute("id", link);
+            output += `<li><a href="#${link}">${title}</a></li>`;
+            });
+            container.innerHTML = output + "</ol>";
+            }</script>
+</body>
+
+</html>
