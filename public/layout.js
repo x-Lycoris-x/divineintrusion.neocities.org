@@ -147,7 +147,7 @@ function headerHTML() {
 
     <h4><u>Status</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
 
-    <iframe style="height:25px;" src="https://petrapixel.neocities.org/widgets/statuscafe?username=lycoris&hideUsernameAndTime=1&center=1&overflow=hidden&height=20px&width=140px&font-family=Garamond&font-size=14px&color=#e4ffe7&padding=3%&marquee=1" frameborder="0"></iframe>
+    <iframe style="height:100px;" src="https://petrapixel.neocities.org/widgets/statuscafe?username=lycoris&hideUsernameAndTime=1&center=1&overflow=hidden&height=20px&width=140px&font-family=Garamond&font-size=14px&color=#e4ffe7&padding=3%" frameborder="0"></iframe>
     <hr />
 
     <p> I'm feeling: <a href="https://www.imood.com/users/x_lycoris_x"><img src="https://moods.imood.com/display/uname-x_lycoris_x/fg-e4ffe7/trans-1/imood.gif" alt="The current mood of x_lycoris_x at www.imood.com" border="0"></a></p>
@@ -230,7 +230,7 @@ function headerHTML() {
      <p><a target="_blank" href="https://www.goodreads.com/user/show/195659899"><img style="width:50%;" title="The Haunting of Hill House by Shirley Jackson" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81FMksyikrL.jpg&f=1&nofb=1&ipt=2809fef3f2ba47a13c1ebf62c19da9a16a63776020015acf6e6427b46c6b7535"></a></p>
      <hr />
      <h5>Song</h5>
-     <iframe style="height: 20px;" src="https://petrapixel.neocities.org/widgets/lastfm?&marquee=1&padding=1%&center=1&height=10px&width=140px&font-family=Garamond&font-size=14px&color=#f4ffe7&username=xLycorisx&swapPositions=1&delimiter=✨&underline=0" frameborder="0" title="Last.Fm Status"></iframe>
+     <iframe style="height: 50px;" src="https://petrapixel.neocities.org/widgets/lastfm?&padding=1%&center=1&height=10px&width=140px&font-family=Garamond&font-size=14px&color=#f4ffe7&username=xLycorisx&swapPositions=0&delimiter=✨&underline=0" frameborder="0" title="Last.Fm Status"></iframe>
       </div>
       
       <!-- Chatbox -->
