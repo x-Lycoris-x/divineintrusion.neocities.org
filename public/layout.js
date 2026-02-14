@@ -34,38 +34,60 @@ function headerHTML() {
         <!-- NAVIGATION -->
         <nav>
           <ul>
-            <li><a href="/">[ Home ]</a></li> 
             <li>
-              <strong>[ Personal Profile ]</strong> 
+            <a href="/">[ Home ]</a>
+            </li>
+
+            <li>
+              <strong>[ Site ]</strong>
                 <ul>
-                  <li><a href="/about">About the Webmaster(s)</a></li>
                   <li><a href="/webrings">Webrings</a></li>
-                  <li><a href="/cats">Cats</a></li>
+
                   <li><a href="/manifesto">Site Manifesto</a></li>
-                </ul>
-            <li>
-              <strong>[ My Creations ]</strong> 
-                <ul>
-                  <li><a href="/art">Art</a></li>
-                  <li><a href="/writing">Writing</a></li>
-                </ul> 
-            <li><a href="/journal">[ Journal ]</a></li> 
-            <li>
-                <strong>[ Projects ]</strong>
-                <ul>
-                  <li><a href="/katabasis">Katabasis</a></li>
-                  <li><a href="/chaos">Chaos is the Game</a></li>
-                  <li><a href="/rorrim">Rorrim Sacellum</a></li>
-                  <li><a href="/curseofstrahd">Curse of Strahd: Winterhold</a></li>
-                  <li><a href="/ao3-codes">Ao3 Style Codes</a></li>
+
                   <li><a href="/spirithunterwebring">Mark Bearer Webring</a></li>
+
+                  <li><a href="/credits">Credits</a></li>
                 </ul>
-           </li>
+            </li>
+
+            <li>
+              <strong>[ Webmaster ]</strong>
+              <ul>
+              <li><a href="/about">About Us</a></li>
+
+              <li><a href="/cats">Our Cats</a></li>
+
+              <li><a href="/shop">Commissions</a></li>
+            </ul>
+            </li>
+
+            <li>
+              <strong>[ Craft Corner ]</strong> 
+                <ul>
+                  <li><a href="/art">Our Art</a></li>
+
+                  <li><a href="/writing">Our Writing</a></li>
+
+                  <li><a href="/katabasis">Katabasis</a></li>
+
+                  <li><a href="/chaos">Chaos is the Game</a></li>
+
+                  <li><a href="/rorrim">Rorrim Sacellum</a></li>
+
+                  <li><a href="/curseofstrahd">Curse of Strahd: Winterhold</a></li>
+
+                  <li><a href="/ao3-codes">Ao3 Style Codes</a></li>
+                </ul> 
+                </li>
+
            <li><a href="/shrines">[ Shrines ]</a></li>
+
            <li>
-            <strong>[ My OCs ]</strong>
+            <strong>[ OCs ]</strong>
             <ul>
               <li><a href="/spirithunterocs">Spirit Hunter</a></li>
+
               <li><a href="/rabbits"><center>Habit Trials Rabbits</center></a></li>
             </ul>
           </li>
@@ -99,8 +121,10 @@ function headerHTML() {
      <!-- Changelog Beta -->
      <div id="local-time" class="sidebar-section" style="height:200px;padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
      <h4><u>Changelog</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4> 
-     <div class="scrollbar" style="margin:1%;height:70%;overflow:scroll;">
-    <p><strong>12/24/25</strong>: So I still don't quite know how to change how the actual changelog displays, but everything should update through git/github now!</p>
+     <div class="scrollbar" style="margin:1%;height:70%;overflow-y:scroll;">
+    <p><strong><u>2/13/26</u></strong> <br /> The "I tried to fix the aside bars and made it WORSE" update :D. I also did a lot of restructuring on the nav and a few new pages. Im a mess and Im trying XD</p>
+    
+     <p><strong>12/24/25</strong>: So I still don't quite know how to change how the actual changelog displays, but everything should update through git/github now!</p>
     <p><strong>12/7/25</strong>: Updated the official "to-do" list on the index, as well as cleaned up the index to be consistent across devices. Also updated the disclaimers on any pages with potentially NSFW content to make it harder to access by those who may not be of age. It's not a perfect system, but provides at minimum 2-3 barriers of entry to said content.</p>
     <p><strong>12/3/25</strong>: Finished adding the actual count to the <a href="/timewarp">system</a> pages, it's going to be a long term project to actually design the buttons for everyone, unless I can think of a nicer way to do that. Right now I'm valuing the aesthetics of it.
     <p><strong>12/2/25</strong>: Finally got around to fixing the sidebar issues (hopefully) and added a few new things!</p>
@@ -116,11 +140,17 @@ function headerHTML() {
     <p><strong>5/2/2019</strong>: Site Created (And then sits in limbo for a number of years)</p>
     </div>
      </div>
+
     
-    <!-- Status Cafe -->
-    <div id="status-cafe" class="sidebar-section" style="height:200px;padding:1%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
+    <!-- Status Cafe and IMood -->
+    <div id="status" class="sidebar-section" style="height:fit-content; padding:3%; border:dotted;border-radius:2em; text-align:center; margin:0; display:block;">
+
     <h4><u>Status</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
-    <iframe src="https://petrapixel.neocities.org/widgets/statuscafe?padding=1%&center=1&font-family=Garamond&font-size=14px&color=white&username=lycoris&hideUsernameAndTime=1&width:45%&height=50%&overflow=scroll" frameborder="0" title="Status.Cafe Status"></iframe>
+
+    <iframe style="height:25px;" src="https://petrapixel.neocities.org/widgets/statuscafe?username=lycoris&hideUsernameAndTime=1&center=1&overflow=hidden&height=20px&width=140px&font-family=Garamond&font-size=14px&color=#e4ffe7&padding=3%&marquee=1" frameborder="0"></iframe>
+    <hr />
+
+    <p> I'm feeling: <a href="https://www.imood.com/users/x_lycoris_x"><img src="https://moods.imood.com/display/uname-x_lycoris_x/fg-e4ffe7/trans-1/imood.gif" alt="The current mood of x_lycoris_x at www.imood.com" border="0"></a></p>
     </div>
     
     <!-- Hanayome Manga Link -->
@@ -149,7 +179,13 @@ function headerHTML() {
      <a target="_blank" href="https://tamanotchi.world/28249c"><img src="https://tamanotchi.world/i2/28249" alt="It's tamaNOTchi! Click to feed!"></a>
      </div>
 
-     <iframe width="150" height="200" style="border:none" src="https://dimden.dev/moon?custom=1" name="dimdenmoonwidget"></iframe>
+     <div class="sidebar-section">
+     <iframe width="100%" height="160px" style="border:solid; border-radius:1em;
+     margin:0 auto; 
+     text-align:center;" 
+     
+     src="https://dimden.dev/moon?custom=1" name="dimdenmoonwidget"></iframe>
+     </div>
     
     </aside>
 
@@ -174,7 +210,9 @@ function headerHTML() {
       <!-- Online Counter -->
     <div id="online-status" class="sidebar-section" style="padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
     <h4><u>Currently Online</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;></h4>
-    <p><center><a href="http://www.snazzyspace.com/generators/viewer-counter/" title="SnazzySpace.com Viewer Counter" target="_blank"><img src="http://www.snazzyspace.com/generators/viewer-counter/counter.php/fid=1762540146/style=0/counter.png" border="0"></a></center></p></div>
+
+    <p><a href="http://www.snazzyspace.com/generators/viewer-counter/" title="SnazzySpace.com Viewer Counter" target="_blank"><img src="http://www.snazzyspace.com/generators/viewer-counter/counter.php/fid=1762540146/style=0/counter.png" border="0"></a></p>
+    </div>
       
       <!-- Recent Media -->
      <div id="recently" class="sidebar-section" style="height:auto;padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
@@ -192,7 +230,7 @@ function headerHTML() {
      <p><a target="_blank" href="https://www.goodreads.com/user/show/195659899"><img style="width:50%;" title="The Haunting of Hill House by Shirley Jackson" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81FMksyikrL.jpg&f=1&nofb=1&ipt=2809fef3f2ba47a13c1ebf62c19da9a16a63776020015acf6e6427b46c6b7535"></a></p>
      <hr />
      <h5>Song</h5>
-     <iframe src="https://petrapixel.neocities.org/widgets/lastfm?padding=1%&center=1&flex-wrap=wrap&width=45%&height=20%&overflow=scroll&font-family=Garamond&font-size=14px&color=#f4ffe7&username=xLycorisx&swapPositions=0&delimiter=by&underline=1" frameborder="0" title="Last.Fm Status"></iframe>
+     <iframe style="height: 20px;" src="https://petrapixel.neocities.org/widgets/lastfm?&marquee=1&padding=1%&center=1&height=10px&width=140px&font-family=Garamond&font-size=14px&color=#f4ffe7&username=xLycorisx&swapPositions=1&delimiter=✨&underline=0" frameborder="0" title="Last.Fm Status"></iframe>
       </div>
       
       <!-- Chatbox -->
