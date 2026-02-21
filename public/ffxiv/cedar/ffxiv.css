@@ -12,8 +12,8 @@
     /* Text Colors: */
     --text-color: #000000;
     --sidebar-text-color: #000000;
-    --link-color: #66961e;
-    --link-color-hover: #43c040;
+    --link-color: #341e96;
+    --link-color-hover: #5a40c0;
 
     /* Text: */
     --font: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Osaka, メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', 'ＭＳ ゴシック', 'MS Gothic', 'Noto Sans CJK JP', TakaoPGothic, sans-serif;
@@ -23,7 +23,7 @@
     /* Other Settings: */
     --margin: 10px;
     --padding: 30px;
-    --border: 4px solid #29812e;
+    --border: 4px solid #ab9ff4;
     --round-borders: 25px;
     --sidebar-width: 200px;
 }
