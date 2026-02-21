@@ -88,7 +88,9 @@ function headerHTML() {
             <ul>
               <li><a href="/spirithunterocs">Spirit Hunter</a></li>
 
-              <li><a href="/rabbits"><center>Habit Trials Rabbits</center></a></li>
+              <li><a href="/rabbits">Habit Trials Rabbits</a></li>
+
+              <li><a href="/ffxiv">Final Fantasy 14</a></li>
             </ul>
           </li>
           </ul>
