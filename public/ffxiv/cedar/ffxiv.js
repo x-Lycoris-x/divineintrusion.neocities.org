@@ -60,47 +60,29 @@ function headerHTML() {
           
           <div class="sidebar-section">
             <div class="sidebar-title">Current MSQ</div>
-            <p>https://xiv-journey.gitpaulo.moe?progress=H4sIAAAAAAAACnWOO24CUQxFuf7MR_NhpAlKEEhB1FTZQyQ61jCCaSMlSCRpU7IEymnZSApgBSwG-02aFLjws-87vvZPt36_4uUywGD6BLDGCoIQPOrRrMR4MXmWIoHJoPgBobBgf5klUnDkPXHQUXkqemruTvQ3gWhoSYyIRo9B0KLOfExYUENFkcP3I3GMUgRechd8O1IkbHakdhxpcI4LIOfM_jPrwg3ikA9UhNlpX1p5Oph9f8bKIQ3gF-7EOfm99_UPo2-8duv2uGybXfu2_Ww-NjelfmTXUgEAAA</p>
+            <p><a href="https://xiv-journey.gitpaulo.moe?progress=H4sIAAAAAAAACnWOO24CUQxFuf7MR_NhpAlKEEhB1FTZQyQ61jCCaSMlSCRpU7IEymnZSApgBSwG-02aFLjws-87vvZPt36_4uUywGD6BLDGCoIQPOrRrMR4MXmWIoHJoPgBobBgf5klUnDkPXHQUXkqemruTvQ3gWhoSYyIRo9B0KLOfExYUENFkcP3I3GMUgRechd8O1IkbHakdhxpcI4LIOfM_jPrwg3ikA9UhNlpX1p5Oph9f8bKIQ3gF-7EOfm99_UPo2-8duv2uGybXfu2_Ww-NjelfmTXUgEAAA">In Search of Iceheart</a></p>
           </div>
           
           <div class="sidebar-section">
             <div class="sidebar-title">Lodestone Link</div>
             <blockquote>
-              <p>https://na.finalfantasyxiv.com/lodestone/character/52420121/</p>
+              <p><a href="https://na.finalfantasyxiv.com/lodestone/character/52420121/">Lodestone</a></p>
             </blockquote>
           </div>
           
           <div class="sidebar-section">
-            <div class="sidebar-title">Section Title</div>
+            <div class="sidebar-title">Classes</div>
             <ul>
-              <li>List</li>
-              <li>List</li>
-              <li><a href="/">List</a></li>
-              <li>List</li>
+              <li><b>Tank:</b><br /> <img src="https://forward.artemisia.quest/images/Icons/set4/Dark_Knight_Icon_1.png"> 58</li>
+              
+              <li><b>DPS:</b><br /> Currently N/A</li>
+
+              <li><b>Healer:</b><br /> <img src="https://forward.artemisia.quest/images/Icons/set4/Astrologian_Icon_1.png"> 30</li>
+
+              <li><b>Gatherers:</b> <br /><img src="https://forward.artemisia.quest/images/Icons/set4/Botanist_Icon_1.png"> 39 <br/><img src="https://forward.artemisia.quest/images/Icons/set4/Fisher_Icon_1.png"> 39</li>
+
+              <li><b>Crafters:</b><br /> <img src="https://forward.artemisia.quest/images/Icons/set4/Culinarian_Icon_1.png"> 35</li>
             </ul>
-          </div>
-          
-          <div class="sidebar-section">
-            <div class="sidebar-title">Section Title</div>
-            <marquee>
-                <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-                <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-                <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-                <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-            </marquee>
-          </div>
-          
-          <div class="sidebar-section">
-            <div class="sidebar-title">Section Title</div>
-            <img class="full-width-image" src="https://picsum.photos/id/11/1000/400">
-          </div>
-          
-          <div class="sidebar-section">
-            <div class="sidebar-title">Section Title</div>
-            <div class="site-button">
-                <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a>
-              <textarea><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/img/linkback.gif" alt="petrapixel"></a></textarea>
-            </div>
           </div>
         </aside>
       
