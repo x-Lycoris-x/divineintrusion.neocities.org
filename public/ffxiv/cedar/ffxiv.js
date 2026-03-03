@@ -36,7 +36,7 @@ function headerHTML() {
                 <ul>
                   <li><a href="/ffxiv/ffxiv">Home</a></li>
 
-                  <li><a href="/about">About</a></li>
+                  <li><a href="/cedarabout">About</a></li>
 
                   <li><a href="/gallery">Gallery</a></li>
 
