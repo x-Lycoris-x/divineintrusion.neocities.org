@@ -1,5 +1,4 @@
 # WIP pages:
-public/ffxiv
 public/shrines/
 public/katabasis/
 /public/katabasis/characters.html
@@ -24,6 +23,13 @@ temp.html
 toris.html
 journal.html
 iron lung.html
+/public/ffxiv/magni
+/public/ffxiv/ffxiv.css
+/public/ffxiv/ffxiv.html
+/public/ffxiv/ffxiv.js
+/public/ffxiv/magni uyagir.html
+/public/ffxiv/cedar/hooks.html
+/public/hypnosis.html
 
 
 # Ignore these files because neocities doesn't allow them:
