@@ -701,7 +701,8 @@ div.scroll-container {
 
 .scrollbox {
   max-height: 170px;
-  overflow: scroll;
+  overflow-y:scroll;
+  overflow-x: hidden;
 }
 
 /* -------------------------------------------------------- */
@@ -827,7 +828,7 @@ div.scroll-container {
 #about-me-facts,
 #about-me-alchemy {
   max-height: 150px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 #about-me-facts ul li {

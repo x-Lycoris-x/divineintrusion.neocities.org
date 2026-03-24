@@ -166,7 +166,7 @@ function headerHTML() {
     <h4><u>My Local Time</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
     <iframe src="https://free.timeanddate.com/clock/ia5ab0uz/n3547/fn9/fs16/fce4ffe7/tct/pct/ftb/pd2/tt0/tw0/tm1/th2/ts1/tb4" frameborder="0" width="100" height="39" allowtransparency="true"></iframe>
     </div>
-    
+
     <!-- Nav Widgets -->
     <div id="other-site-nav" class="sidebar-section" style="padding:5%;border:dotted;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
     <iframe width="130" height="130" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
@@ -226,7 +226,7 @@ function headerHTML() {
      <p><img style="width:50%;" title="Oshi no Ko" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic1.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2023%2F06%2Foshi-no-ko-tv-poster.jpg&f=1&nofb=1&ipt=de88d293d9d09bc1ded5f3a937848347a4a1b83b0f9991be8b0fe39c06c7ea94"></p>
      <hr />
      <h5>Game</h5>
-     <p><a target="_blank" href="https://backloggd.com/u/x_Lycoris_x/"><img style="width:50%;" title="Depth Spelunking (Roblox)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1eIaz9QkMp0mGgd3DO6UmbbEcL7yqpOg5A&s"></a></p>
+     <p><a target="_blank" href="https://backloggd.com/u/x_Lycoris_x/"><img style="width:50%;" title="Final Fantasy 14 (Stormblood)" src="https://www.nicepng.com/png/detail/62-626804_final-fantasy-14-stormblood.png"></a></p>
      <hr />
      <h5>Book</h5>
      <p><a target="_blank" href="https://www.goodreads.com/user/show/195659899"><img style="width:50%;" title="The Haunting of Hill House by Shirley Jackson" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81FMksyikrL.jpg&f=1&nofb=1&ipt=2809fef3f2ba47a13c1ebf62c19da9a16a63776020015acf6e6427b46c6b7535"></a></p>
