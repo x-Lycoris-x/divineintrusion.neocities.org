@@ -239,6 +239,8 @@ function headerHTML() {
       <div id="chatbox" class="sidebar-section" style="height:auto;border-radius:2em;text-align:center;align-items:center;justify-content:center;">
       <iframe src="https://www3.cbox.ws/box/?boxid=3550618&boxtag=XRVhOg" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
       </div>
+
+      <div><iframe src="https://webtiles.kicya.net/e/divineintrusion.neocities.org" width="100%" height="270" frameborder="0"></iframe></div>
      
     </aside>
     `;
