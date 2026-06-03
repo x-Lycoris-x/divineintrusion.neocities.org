@@ -150,6 +150,7 @@ function headerHTML() {
     <h4><u>Status</u> <img src="https://files.catbox.moe/gkjzko.png" alt="miniature stylized curse mark" style="width:15%;"></h4>
 
     <iframe style="height:100px;" src="https://petrapixel.neocities.org/widgets/statuscafe?username=lycoris&hideUsernameAndTime=1&center=1&overflow=hidden&height=20px&width=140px&font-family=Garamond&font-size=14px&color=#e4ffe7&padding=3%" frameborder="0"></iframe>
+    
     <hr />
 
     <p> I'm feeling: <a href="https://www.imood.com/users/x_lycoris_x"><img src="https://moods.imood.com/display/uname-x_lycoris_x/fg-e4ffe7/trans-1/imood.gif" alt="The current mood of x_lycoris_x at www.imood.com" border="0"></a></p>
