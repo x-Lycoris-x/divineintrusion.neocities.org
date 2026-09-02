@@ -28,10 +28,25 @@ iron lung.html
 /public/ffxiv/ffxiv.js
 /public/ffxiv/magni uyagir.html
 /public/ffxiv/cedar/hooks.html
-/public/hypnosis.html
-/public/other-sites.html
-/public/affirmations.html
-
+hypnosis.html
+other-sites.html
+affirmations.html
+style.css
+layout.js
+index.html
+lease-end.html
+about.html
+art.html
+cats.html
+cosplaylist.html
+curseofstrahd.html
+manifesto.html
+rabbits.html
+sitemap.html
+spirithunterwebring.html
+webrings.html
+writing.html
+timewarp.html
 
 # Ignore these files because neocities doesn't allow them:
 *.cur
