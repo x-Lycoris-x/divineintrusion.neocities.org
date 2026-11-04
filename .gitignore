@@ -3,50 +3,13 @@ public/shrines/
 public/katabasis/
 /public/katabasis/characters.html
 /public/katabasis/characters/nicholi.html
-alistor.html
-ao3-codes.html
-apartment.html
-bio.html
-chaos.html
-bristol.html
-cosdm.html
-cosplayers.html
-dm-manga.html
-fillian.html
-katabasis.html
-leaf.html
-rorrim.html
-shop.html
-shrines.html
-temp.html
-toris.html
-journal.html
-iron lung.html
 /public/ffxiv/magni
 /public/ffxiv/ffxiv.css
 /public/ffxiv/ffxiv.html
 /public/ffxiv/ffxiv.js
 /public/ffxiv/magni uyagir.html
 /public/ffxiv/cedar/hooks.html
-hypnosis.html
-other-sites.html
-affirmations.html
-style.css
-layout.js
-index.html
-lease-end.html
-about.html
-art.html
-cats.html
-cosplaylist.html
-curseofstrahd.html
-manifesto.html
-rabbits.html
-sitemap.html
-spirithunterwebring.html
-webrings.html
-writing.html
-timewarp.html
+/public/archived
 
 # Ignore these files because neocities doesn't allow them:
 *.cur
