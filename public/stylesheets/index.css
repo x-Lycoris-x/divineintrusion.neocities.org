@@ -21,11 +21,11 @@
     --font-size: 14px;
 
     /* Other Settings: */
-    --margin: 4px;
-    --padding: 14px;
+    --margin: 6px;
+    --padding: 10px;
     --border: 2px solid #e4ffe7ff;
     --round-borders: 0px;
-    --sidebar-width: 204px;
+    --sidebar-width: 200px;
 }
 
 /* -------------------------------------------------------- */
@@ -120,6 +120,9 @@ header {
     border: var(--border);
     border-radius: var(--round-borders);
     background: var(--content-background-color);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .header-content {
@@ -148,17 +151,25 @@ aside {
     overflow: hidden;
     background: var(--sidebar-background-color);
     padding: var(--padding);
+    margin:var(--margin);
     color: var(--sidebar-text-color);
+    position:relative;
 }
 
 .left-local-time {
     grid-area:leftTime;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    height:fit-content;
+    padding: var(--padding);
+    margin:var(--margin);
+
 }
 
 .left-navbar {
     grid-area:leftNav;
+    display: inline-flex;
+
 }
 
 .left-site-button {
@@ -190,6 +201,15 @@ aside {
     font-weight: bold;
     font-size: 1.2em;
     font-family: var(--heading-font);
+    top:0;
+    left:0;
+    padding:var(--padding);
+    margin:var(--margin);
+    background:var(--background-color);
+    border: 4px;
+    text-transform:capitalize;
+    position:absolute;
+
 }
 
 .sidebar-section:not(:last-child) {
