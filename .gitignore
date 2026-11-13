@@ -10,6 +10,7 @@ public/katabasis/
 /public/ffxiv/magni uyagir.html
 /public/ffxiv/cedar/hooks.html
 /public/archived
+/public/stylesheets
 
 # Ignore these files because neocities doesn't allow them:
 *.cur
