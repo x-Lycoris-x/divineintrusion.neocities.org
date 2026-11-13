@@ -136,13 +136,13 @@
 
             <aside class="left-site-button">
                 <div class="sidebar-section">
-                    <div class="sidebar-title">Site Button</div>
+                    <div class="sidebar-title">site button</div>
+
                     <div class="site-button">
-                        <a href="https://divineintrusion.neocities.org/" target="_blank"><img
-                                src="https://divineintrusion.neocities.org/site%20images/button.png"
-                                alt="Divine Intrusion"></a>
-                        <textarea><a href="https://divineintrusion.neocities.org/" target="_blank"><img src="https://divineintrusion.neocities.org/site%20images/button.png" alt="Divine Intrusion"></a></textarea>
-                    </div>    </div>
+                        <a href="https://divineintrusion.neocities.org/" target="_blank"><img src="https://divineintrusion.neocities.org/site%20images/button.png" alt="Divine Intrusion Website Button"></a>
+                        <textarea><a href="https://divineintrusion.neocities.org/" target="_blank"><img
+                                src="https://divineintrusion.neocities.org/site%20images/button.png" alt="Divine Intrusion"></a></textarea>
+                    </div>   </div>
             </aside>
 
             <aside class="left-sidebar">
@@ -150,6 +150,25 @@
     <div class="sidebar-title">Listening To...</div>
     <ws-widget type="spotify-status" iid="10025" embed="script"></ws-widget>
 </div>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="widget"></div>
+
+<script
+	src="https://spotistatus.onrender.com/widget.js"
+	data-settings='{
+		"spotifytoken": "YOUR_TOKEN",
+		"custom_html": "<div class=\"spotistatus-widget\"><img class=\"spotistatus-album-art\" src=\"${data.img}\" alt=\"Album art\"><a href=\"${data.songUrl}\" target=\"_blank\">${data.song}</a><a href=\"${data.artistUrl}\" target=\"_blank\">${data.artist}</a><a href=\"${data.albumUrl}\" target=\"_blank\">${data.album}</a></div>",
+		"offline_html": "<div>Not listening right now. Last song: ${data.song}</div>",
+		"offline_status": false
+	}'>
+</script>
+
+</body>
+</html>
                 <div class="sidebar-section">
                     <ws-widget type="moon" iid="10026" embed="iframe"></ws-widget>
                 </div>

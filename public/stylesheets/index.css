@@ -21,11 +21,11 @@
     --font-size: 14px;
 
     /* Other Settings: */
-    --margin: 6px;
-    --padding: 10px;
+    --margin: 4px;
+    --padding: 14px;
     --border: 2px solid #e4ffe7ff;
     --round-borders: 0px;
-    --sidebar-width: 200px;
+    --sidebar-width: 240px;
 }
 
 /* -------------------------------------------------------- */
@@ -54,7 +54,7 @@ body {
 
 ::selection {
     /* (Text highlighted by the user) */
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 14, 0, 0.4);
 }
 
 mark {
@@ -66,7 +66,7 @@ mark {
 
 /* Links: */
 a {
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
 a,
@@ -146,20 +146,20 @@ header {
 
 aside {
     grid-area: aside;
+    display:flex;
     border: var(--border);
     border-radius: var(--round-borders);
-    overflow: hidden;
+    overflow:hidden;
     background: var(--sidebar-background-color);
     padding: var(--padding);
     margin:var(--margin);
     color: var(--sidebar-text-color);
     position:relative;
+    height:fit-content;
 }
 
 .left-local-time {
     grid-area:leftTime;
-    display: flex;
-    justify-content: center;
     height:fit-content;
     padding: var(--padding);
     margin:var(--margin);
@@ -169,6 +169,9 @@ aside {
 .left-navbar {
     grid-area:leftNav;
     display: inline-flex;
+    padding: var(--padding);
+    margin:var(--margin);
+    height: fit-content;
 
 }
 
@@ -202,13 +205,16 @@ aside {
     font-size: 1.2em;
     font-family: var(--heading-font);
     top:0;
-    left:0;
+    right:0;
     padding:var(--padding);
     margin:var(--margin);
     background:var(--background-color);
-    border: 4px;
+    border: var(--border);
     text-transform:capitalize;
     position:absolute;
+    height:fit-content;
+    width:fit-content;
+    transform: translate(0px,-15px);
 
 }
 
@@ -247,13 +253,17 @@ aside {
 
 .site-button {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width:fit-content;
     align-items: center;
-}
+}   
 
 .site-button textarea {
+    display:flex;
+    flex-direction: row;
     font-family: monospace;
     font-size: 0.7em;
+    margin-right:var(--margin);
 }
 
 /* -------------------------------------------------------- */
@@ -337,6 +347,7 @@ nav ul ul li>a {
 
 main {
     line-height: 1.5;
+    height:fit-content;
 }
 
 main a,
