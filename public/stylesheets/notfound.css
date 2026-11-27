@@ -25,7 +25,6 @@
     --padding: 14px;
     --border: 2px solid #e4ffe7ff;
     --round-borders: 0px;
-    --sidebar-width: 204px;
 }
 
 /* -------------------------------------------------------- */
@@ -145,6 +144,8 @@ footer {
     background: var(--content-background-color);
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 footer a,
@@ -156,55 +157,6 @@ footer a:hover,
 footer a:focus {
     color: var(--link-color-hover);
 }
-
-/* -------------------------------------------------------- */
-/* NAVIGATION */
-/* -------------------------------------------------------- */
-
-nav {
-    margin-bottom: 3em;
-}
-
-nav .sidebar-title {
-    margin-bottom: 0.5em;
-}
-
-nav ul {
-    margin: 0 -5px;
-    padding: 0;
-    list-style: none;
-    user-select: none;
-}
-
-nav ul li {
-    margin-bottom: 0;
-}
-
-nav>ul li>a,
-nav>ul li>strong {
-    display: inline-block;
-}
-
-nav>ul li>a,
-nav>ul li>details summary,
-nav>ul li>strong {
-    padding: 5px 10px;
-}
-
-nav>ul li>a.active,
-nav>ul li>details.active summary {
-    font-weight: bold;
-}
-
-nav ul summary {
-    cursor: pointer;
-}
-
-nav ul ul li>a {
-    padding-left: 30px;
-}
-
-
 
 /* -------------------------------------------------------- */
 /* CONTENT */
@@ -226,10 +178,9 @@ main a:focus {
 }
 
 main p,
-main .image,
-main .full-width-image,
-main .two-columns {
+main .image {
     margin: 0.75em 0;
+    text-align: center;
 }
 
 main ol,
@@ -320,55 +271,30 @@ main h6 {
     font-size: 1em;
 }
 
-/* COLUMNS: */
-
-.two-columns {
-    display: flex;
-}
-
-.two-columns>* {
-    flex: 1 1 0;
-    margin: 0;
-}
-
-.two-columns>*:first-child {
-    padding-right: 0.75em;
-}
-
-.two-columns>*:last-child {
-    padding-left: 0.75em;
-}
-
 /* -------------------------------------------------------- */
 /* CONTENT IMAGES */
 /* -------------------------------------------------------- */
 
 .image {
-    display: block;
+    display: flex;
     width: auto;
     height: auto;
     max-width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-.full-width-image {
-    display: block;
-    width: 100%;
+.image img{
+    max-width: 100%;
+    width: auto;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s;
 }
 
-.images {
-    display: flex;
-    width: calc(100% + 5px + 5px);
-    margin-left: -5px;
-    margin-right: -5px;
-}
-
-.images img {
-    width: 100%;
-    height: auto;
-    padding: 5px;
-    margin: 0;
-    overflow: hidden;
+.image img:hover{
+    transform: rotate(-15deg) scale(1.25);
 }
 
 /* -------------------------------------------------------- */
@@ -415,27 +341,6 @@ main h6 {
             "footer" auto 
             / 1fr;
         /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
-    }
-
-    aside {
-        border-bottom: 1px solid;
-        padding: 9px;
-        font-size: 0.9em;
-    }
-
-
-    nav {
-        padding: 0;
-    }
-
-    nav>ul {
-        padding-top: 0.5em;
-    }
-
-    nav>ul li>a,
-    nav>ul li>details summary,
-    nav>ul li>strong {
-        padding: 0.5em;
     }
 
     main {
