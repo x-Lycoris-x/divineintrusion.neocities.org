@@ -40,7 +40,7 @@ body {
     min-height: 100vh;
     font-size: var(--font-size);
     margin: 0;
-    padding: var(--padding);
+    padding: var(--margin);
     color: var(--text-color);
     font-family: var(--font);
     line-height: 1.2;
@@ -51,7 +51,7 @@ body {
 
 ::selection {
     /* (Text highlighted by the user) */
-    background: rgba(0, 14, 0, 0.4);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 mark {
@@ -75,9 +75,7 @@ a:hover,
 a:focus {
     color: var(--link-color-hover);
     text-decoration: none;
-}
-
-/* -------------------------------------------------------- */
+}/* -------------------------------------------------------- */
 /* LAYOUT */
 /* -------------------------------------------------------- */
 
@@ -86,9 +84,7 @@ a:focus {
     display: grid;
     grid-gap: var(--margin);
     grid-template:
-    ". . ." auto
-    ". main ." auto
-    ". . ." auto / var
+    ". main ." auto / var
     /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
 }
 
