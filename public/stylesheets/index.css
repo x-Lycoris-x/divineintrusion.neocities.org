@@ -7,11 +7,9 @@
     /* Background Colors: */
     --background-color: #232c1e;
     --content-background-color: #3b3320c4;
-    --sidebar-background-color: #3b3320c4;
 
     /* Text Colors: */
     --text-color: #e4ffe7;
-    --sidebar-text-color: #e4ffe7;
     --link-color: #86df00ff;
     --link-color-hover: #ff7d7d;
 
@@ -42,7 +40,7 @@ body {
     min-height: 100vh;
     font-size: var(--font-size);
     margin: 0;
-    padding: var(--margin);
+    padding: var(--padding);
     color: var(--text-color);
     font-family: var(--font);
     line-height: 1.2;
@@ -90,13 +88,13 @@ a:focus {
     grid-template:
     ". . ." auto
     ". main ." auto
-    ". . ." auto / var(--sidebar-width) auto;
+    ". . ." auto / var
     /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
 }
 
 main {
     grid-area: main;
-    overflow-y: visible;
+    overflow: visible;
     padding: var(--padding);
     background: var(--content-background-color);
     border: var(--border);
@@ -126,9 +124,8 @@ main a:focus {
 
 main p,
 main .image,
-main .full-width-image,
-main .two-columns {
-    margin: 0.75em 0;
+main .full-width-image {
+    margin:  0;
 }
 
 main ol,
