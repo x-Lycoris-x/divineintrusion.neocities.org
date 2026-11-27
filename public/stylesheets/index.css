@@ -66,7 +66,7 @@ mark {
 
 /* Links: */
 a {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 a,
@@ -88,258 +88,21 @@ a:focus {
     width: 1000px;
     display: grid;
     grid-gap: var(--margin);
-    grid-template: 
-        "header header header" auto
-        "leftTime main main" auto
-        "leftNav main main" auto
-        "leftSite rightStatus rightWebring" auto
-        "leftSidebar . rightWebring" auto
-        ". . rightWebring" auto
-        ". rightChat rightChat" auto
-        "footer footer footer" auto 
-        / var(--sidebar-width) auto;
+    grid-template:
+    ". . ." auto
+    ". main ." auto
+    ". . ." auto / var(--sidebar-width) auto;
     /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
 }
 
 main {
     grid-area: main;
-    overflow-y: auto;
+    overflow-y: visible;
     padding: var(--padding);
     background: var(--content-background-color);
     border: var(--border);
     border-radius: var(--round-borders);
 }
-
-/* -------------------------------------------------------- */
-/* HEADER */
-/* -------------------------------------------------------- */
-
-header {
-    grid-area: header;
-    font-size: 1.2em;
-    border: var(--border);
-    border-radius: var(--round-borders);
-    background: var(--content-background-color);
-    text-align: center;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.header-content {
-    padding: var(--padding);
-}
-
-.header-title {
-    font-family: var(--heading-font);
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.header-image img {
-    width: 100%;
-    height: auto;
-}
-
-/* -------------------------------------------------------- */
-/* SIDEBARS */
-/* -------------------------------------------------------- */
-
-aside {
-    grid-area: aside;
-    display:flex;
-    border: var(--border);
-    border-radius: var(--round-borders);
-    overflow:hidden;
-    background: var(--sidebar-background-color);
-    padding: var(--padding);
-    margin:var(--margin);
-    color: var(--sidebar-text-color);
-    position:relative;
-    height:fit-content;
-}
-
-.left-local-time {
-    grid-area:leftTime;
-    height:fit-content;
-    padding: var(--padding);
-    margin:var(--margin);
-
-}
-
-.left-navbar {
-    grid-area:leftNav;
-    display: inline-flex;
-    padding: var(--padding);
-    margin:var(--margin);
-    height: fit-content;
-
-}
-
-.left-site-button {
-    grid-area: leftSite;
-}
-
-.left-sidebar {
-    grid-area:leftSidebar;
-}
-
-.right-sidebar {
-    grid-area: rightSidebar;
-}
-
-.right-chat{
-    grid-area:rightChat;
-    text-align: center;
-}
-
-.right-status {
-    grid-area:rightStatus;
-}
-
-.right-webring {
-    grid-area:rightWebring;
-}
-
-.sidebar-title {
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: var(--heading-font);
-    top:0;
-    right:0;
-    padding:var(--padding);
-    margin:var(--margin);
-    background:var(--background-color);
-    border: var(--border);
-    text-transform:capitalize;
-    position:absolute;
-    height:fit-content;
-    width:fit-content;
-    transform: translate(0px,-15px);
-
-}
-
-.sidebar-section:not(:last-child) {
-    margin-bottom: 3em;
-}
-
-.sidebar-section ul,
-.sidebar-section ol {
-    padding-left: 1.5em;
-}
-
-.sidebar-section>*:not(p):not(ul):not(ol):not(blockquote) {
-    margin-top: 10px;
-}
-
-/* Sidebar Blockquote: */
-
-.sidebar-section blockquote {
-    background: rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    margin: 1em 0;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.sidebar-section blockquote>*:first-child {
-    margin-top: 0;
-}
-
-.sidebar-section blockquote>*:last-child {
-    margin-bottom: 0;
-}
-
-/* Site Button: */
-
-.site-button {
-    display: flex;
-    flex-direction: row;
-    width:fit-content;
-    align-items: center;
-}   
-
-.site-button textarea {
-    display:flex;
-    flex-direction: row;
-    font-family: monospace;
-    font-size: 0.7em;
-    margin-right:var(--margin);
-}
-
-/* -------------------------------------------------------- */
-/* FOOTER */
-/* -------------------------------------------------------- */
-
-footer {
-    grid-area: footer;
-    border: var(--border);
-    border-radius: var(--round-borders);
-    overflow: hidden;
-    font-size: 0.75em;
-    padding: 15px;
-    background: var(--content-background-color);
-    display: flex;
-    justify-content: center;
-}
-
-footer a,
-footer a:visited {
-    color: var(--link-color);
-}
-
-footer a:hover,
-footer a:focus {
-    color: var(--link-color-hover);
-}
-
-/* -------------------------------------------------------- */
-/* NAVIGATION */
-/* -------------------------------------------------------- */
-
-nav {
-    margin-bottom: 3em;
-}
-
-nav .sidebar-title {
-    margin-bottom: 0.5em;
-}
-
-nav ul {
-    margin: 0 -5px;
-    padding: 0;
-    list-style: none;
-    user-select: none;
-}
-
-nav ul li {
-    margin-bottom: 0;
-}
-
-nav>ul li>a,
-nav>ul li>strong {
-    display: inline-block;
-}
-
-nav>ul li>a,
-nav>ul li>details summary,
-nav>ul li>strong {
-    padding: 5px 10px;
-}
-
-nav>ul li>a.active,
-nav>ul li>details.active summary {
-    font-weight: bold;
-}
-
-nav ul summary {
-    cursor: pointer;
-}
-
-nav ul ul li>a {
-    padding-left: 30px;
-}
-
-
 
 /* -------------------------------------------------------- */
 /* CONTENT */
@@ -347,7 +110,8 @@ nav ul ul li>a {
 
 main {
     line-height: 1.5;
-    height:fit-content;
+    height: fit-content;
+    text-align: center;
 }
 
 main a,
@@ -378,6 +142,10 @@ main ol li,
 main ul li {
     margin-bottom: 0.2em;
     line-height: 1.3;
+    text-transform: capitalize;
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 25%;
 }
 
 main ol {
@@ -456,25 +224,6 @@ main h6 {
     font-size: 1em;
 }
 
-/* COLUMNS: */
-
-.two-columns {
-    display: flex;
-}
-
-.two-columns>* {
-    flex: 1 1 0;
-    margin: 0;
-}
-
-.two-columns>*:first-child {
-    padding-right: 0.75em;
-}
-
-.two-columns>*:last-child {
-    padding-left: 0.75em;
-}
-
 /* -------------------------------------------------------- */
 /* CONTENT IMAGES */
 /* -------------------------------------------------------- */
@@ -484,6 +233,8 @@ main h6 {
     width: auto;
     height: auto;
     max-width: 100%;
+    justify-content: center;
+    text-align: right;
 }
 
 .full-width-image {
@@ -505,6 +256,38 @@ main h6 {
     padding: 5px;
     margin: 0;
     overflow: hidden;
+}
+
+.rating-image{
+    display:flex;
+    position:relative;
+    bottom: 0;
+    left: -10%;
+    z-index: 5;
+}
+.rating-image img{
+    width:100%;
+    transition: transform .2s;
+    filter: drop-shadow(20px 15px 10px #000000);
+    filter: sepia(25%);
+}
+
+.side-image{
+    display:flex;
+    position: relative;
+    width:100%;
+    z-index: 5;
+}
+
+.side-image img{
+    width:50%;
+    position:absolute;
+    right:-10rem;
+    bottom:0;
+    transition: transform .2s;
+    filter: drop-shadow(20px 15px 10px #000000);
+    filter: sepia(25%);
+
 }
 
 /* -------------------------------------------------------- */
@@ -534,6 +317,22 @@ main h6 {
 }
 
 /* -------------------------------------------------------- */
+/* REACTIVE ADDITIONS */
+/* -------------------------------------------------------- */
+
+.rating-image img:hover{
+    transform: scale(1.25);
+    filter: sepia(0%);
+}
+
+.side-image img:hover{
+    transform: scale(1.25) scaleX(-1);
+    filter: sepia(0%);
+    opacity: 0.5;
+    
+}
+
+/* -------------------------------------------------------- */
 /* MOBILE RESPONSIVE */
 /* -------------------------------------------------------- */
 
@@ -545,44 +344,10 @@ main h6 {
 
     .layout {
         width: 100%;
-        grid-template: 
-            "header" auto 
-            "leftNav" auto
-            "main" auto 
-            "leftTime" auto 
-            "footer" auto 
-            / 1fr;
+        grid-template:
+            "main" auto
+             / 1fr;
         /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
-    }
-
-    .left-site-button,
-    .right-sidebar,
-    .right-chat,
-    .right-webring,
-    .right-status,
-    .left-sidebar{
-        display:none;
-    }
-
-    aside {
-        border-bottom: 1px solid;
-        padding: 9px;
-        font-size: 0.9em;
-    }
-
-
-    nav {
-        padding: 0;
-    }
-
-    nav>ul {
-        padding-top: 0.5em;
-    }
-
-    nav>ul li>a,
-    nav>ul li>details summary,
-    nav>ul li>strong {
-        padding: 0.5em;
     }
 
     main {
@@ -596,6 +361,17 @@ main h6 {
 
     .images img {
         width: 100%;
+    }
+
+    .rating-image {
+        display: flex;
+        position:relative;
+        left:0;
+        bottom:0;
+    }
+
+    .side-image{
+        display: none;
     }
 
     #skip-to-content-link {
